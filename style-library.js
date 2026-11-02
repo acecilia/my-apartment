@@ -209,8 +209,9 @@ document.querySelector('#next-style').addEventListener('click', () => stepStyle(
 const imageLink = document.querySelector('#viewer-full-image');
 let swipe = null, suppressImageClickUntil = 0;
 imageLink.addEventListener('pointerdown', event => {
-  if (event.pointerType === 'mouse' || !event.isPrimary) { swipe = null; return; }
+  if (!event.isPrimary || (event.pointerType === 'mouse' && event.button !== 0)) { swipe = null; return; }
   swipe = { id: event.pointerId, x: event.clientX, y: event.clientY, horizontal: false };
+  imageLink.setPointerCapture(event.pointerId);
 });
 imageLink.addEventListener('pointermove', event => {
   if (!swipe || swipe.id !== event.pointerId) return;
@@ -223,17 +224,30 @@ imageLink.addEventListener('pointermove', event => {
 imageLink.addEventListener('pointerup', event => {
   if (!swipe || swipe.id !== event.pointerId) return;
   const dx = event.clientX - swipe.x, dy = event.clientY - swipe.y;
-  if (swipe.horizontal) {
+  if (Math.abs(dx) > 12 && Math.abs(dx) > Math.abs(dy) * 1.4) {
     suppressImageClickUntil = performance.now() + 500;
-    if (Math.abs(dx) >= 48 && Math.abs(dx) > Math.abs(dy) * 1.4) stepStyle(dx < 0 ? 1 : -1);
+    if (Math.abs(dx) >= Math.max(30, Math.min(60, imageLink.clientWidth * .1))) stepStyle(dx < 0 ? 1 : -1);
   }
   swipe = null;
 });
 imageLink.addEventListener('pointercancel', () => { swipe = null; });
+imageLink.addEventListener('lostpointercapture', () => { swipe = null; });
 imageLink.addEventListener('click', event => {
   if (performance.now() < suppressImageClickUntil) { event.preventDefault(); event.stopPropagation(); }
 }, true);
+imageLink.draggable = false;
 document.querySelector('#viewer-image').draggable = false;
+let wheelDistance = 0, lastWheelAt = 0, wheelConsumed = false;
+imageLink.addEventListener('wheel', event => {
+  if (event.ctrlKey || Math.abs(event.deltaX) <= Math.abs(event.deltaY) * 1.4) return;
+  event.preventDefault();
+  const now = performance.now();
+  if (now - lastWheelAt > 200) { wheelDistance = 0; wheelConsumed = false; }
+  lastWheelAt = now;
+  if (wheelConsumed) return;
+  wheelDistance += event.deltaX;
+  if (Math.abs(wheelDistance) >= 50) { stepStyle(wheelDistance > 0 ? 1 : -1); wheelConsumed = true; }
+}, { passive: false });
 document.querySelector('#before-button').addEventListener('click', () => openStyle(original));
 const range = document.querySelector('#compare-reveal');
 range.addEventListener('input', () => setReveal(range.value));

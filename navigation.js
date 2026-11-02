@@ -13,7 +13,7 @@ class ApartmentNavigation extends HTMLElement {
     const root = this.attachShadow({ mode: 'open' });
     const stylesheet = document.createElement('link');
     stylesheet.rel = 'stylesheet';
-    stylesheet.href = new URL('./navigation.css', document.baseURI).href;
+    stylesheet.href = new URL('./navigation.css?v=8e28ec8c8b', document.baseURI).href;
     root.append(stylesheet);
     const header = document.createElement('header');
     header.className = 'navigation';

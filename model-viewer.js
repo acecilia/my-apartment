@@ -60304,7 +60304,39 @@ function buildCutCap(mesh){
 function view(name){camera.fov=name==='lower-cabinets'?62:(name==='cabinet-textures'||name==='shower')?55:40;camera.updateProjectionMatrix();camera.up.set(0,1,0);if(name==='plan')camera.up.set(0,0,-1);currentView=name;document.querySelectorAll('[data-view]').forEach(x=>x.classList.toggle('active',x.dataset.view===name));if(name==='whole'){target.set(4.4,.3,3.7);radius=21;theta=Math.PI-.75;phi=.75}else if(name==='plan'){target.set(4.4,0,3.7);radius=21;theta=0;phi=.001}else if(name==='living'){target.set(2,1,5.5);radius=8;theta=-.4;phi=.85}else if(name==='cabinet-textures'){target.set(.35,1.35,7.3);radius=2.65;theta=Math.PI/2;phi=1.45}else if(name==='lower-cabinets'){target.set(1.2,.55,6.9);radius=Math.sqrt(3.6325);theta=Math.atan2(1.35,1);phi=Math.acos(.9/radius)}else if(name==='kitchen-sink'){target.set(1.68,.92,6.42);radius=1.8;theta=.92;phi=1.0}else if(name==='kitchen-corner'){target.set(1.15,1.35,8.34);radius=4.1;theta=2.33;phi=1.43}else if(name==='terrace'){target.set(4.45,1.2,0);radius=10.5;theta=Math.PI;phi=1.5}else if(name==='shower'){target.set(8.42,.8,5.35);radius=Math.sqrt(3.4369);theta=Math.atan2(-1.62,-.50);phi=Math.acos(.75/radius)}else if(name==='ensuite-sink'){target.set(8.33,.93,4.975);radius=1.55;theta=-Math.PI/2;phi=1.0}else if(name==='powder-sink'){target.set(4.775,.93,8.105);radius=1.85;theta=Math.PI/2;phi=1.1}else if(name==='ensuite-wc'){target.set(8.64,.85,5.8400);radius=1.6;theta=-Math.PI/2;phi=1.08}else if(name==='powder-wc'){target.set(6.65,.85,8.13);radius=1.6;theta=-Math.PI/2;phi=1.08}else if(name==='corridor'){target.set(6.3,1.2,6.70);radius=3.7;theta=-Math.PI/2;phi=1.4}else if(name==='laundry'){target.set(6.6,1,6.70);radius=3.1;theta=-1.57;phi=1.15}else{target.set(6.8,1,1.7);radius=6.6;theta=-.7;phi=.7}}
 document.querySelectorAll('[data-view]').forEach(el=>el.onclick=()=>view(el.dataset.view));document.querySelector('#cutaway').onclick=e=>{cut=!cut;cutCaps.visible=cut;e.target.classList.toggle('active',cut);e.target.setAttribute('aria-pressed',String(cut));cutawayMats.forEach(m=>{m.clippingPlanes=cut?[plane]:[];m.needsUpdate=true})};
 new GLTFLoader().load(window.__portableApartmentModel,g=>{model=g.scene;scene.add(model);model.updateMatrixWorld(true);let count=0;model.traverse(o=>{if(!o.isMesh)return;count++;const nm=o.name.toLowerCase();if(/perimeter|south_wall|divider|structural|division|left_wall|partition|shower_rear|powder_.*wall|jamb|lintel|glazing_.*pier|glazing_header|balcony_.*end|riser_core|laundry_.*wall|laundry_.*return|hinge_wall_return/.test(nm)||o.userData.architecture_role==='wall'||o.userData.door_role==='frame'||o.userData.door_role==='leaf'){o.material=o.material.clone();o.material.clippingPlanes=[plane];o.material.clipShadows=true;cutawayMats.push(o.material);buildCutCap(o)}if(nm.includes('glass')||nm.includes('glazing')||nm.includes('balustrade')||nm.includes('screen')){if(o.material.transmission>0){if(!cutawayMats.includes(o.material))o.material=o.material.clone();o.material.transmission=0;o.material.transparent=true;o.material.opacity=.15;o.material.depthWrite=false}}});document.querySelector('#loading').remove();document.querySelector('#model-status').textContent=`Model loaded · ${count} mesh objects · metres${softwareMode ? ' · compatibility 3D viewer' : ''}`},undefined,error=>{document.querySelector('#loading').textContent='Unable to load model';document.querySelector('#error').textContent=String(error)});
-let dragging=false,lastX=0,lastY=0,pan=false;const canvas=renderer.domElement;canvas.oncontextmenu=e=>e.preventDefault();canvas.onpointerdown=e=>{dragging=true;pan=e.button===2||e.shiftKey;lastX=e.clientX;lastY=e.clientY;canvas.setPointerCapture(e.pointerId)};canvas.onpointerup=()=>dragging=false;canvas.onpointermove=e=>{if(!dragging)return;let dx=e.clientX-lastX,dy=e.clientY-lastY;lastX=e.clientX;lastY=e.clientY;if(pan){const right=new THREE.Vector3().setFromMatrixColumn(camera.matrixWorld,0),up=new THREE.Vector3().setFromMatrixColumn(camera.matrixWorld,1);target.addScaledVector(right,-dx*radius*.0015).addScaledVector(up,dy*radius*.0015)}else{theta-=dx*.006;phi=Math.max(.001,Math.min(1.5,phi+dy*.006))}};canvas.addEventListener('wheel',e=>{e.preventDefault();radius=Math.max(.02,Math.min(40,radius*Math.exp(e.deltaY*.001)))},{passive:false});
+const canvas=renderer.domElement,pointers=new Map();let previousGesture=null;
+function zoomBy(scale){radius=Math.max(.02,Math.min(40,radius*scale))}
+function panBy(dx,dy){
+ const right=new THREE.Vector3().setFromMatrixColumn(camera.matrixWorld,0),up=new THREE.Vector3().setFromMatrixColumn(camera.matrixWorld,1);
+ target.addScaledVector(right,-dx*radius*.0015).addScaledVector(up,dy*radius*.0015);
+}
+function gesture(){
+ const [a,b]=pointers.values();if(!a)return null;
+ return b?{x:(a.x+b.x)/2,y:(a.y+b.y)/2,distance:Math.hypot(b.x-a.x,b.y-a.y)}:{...a};
+}
+canvas.oncontextmenu=e=>e.preventDefault();
+canvas.onpointerdown=e=>{
+ if(e.pointerType==='mouse'&&e.button!==0&&e.button!==2)return;
+ pointers.set(e.pointerId,{x:e.clientX,y:e.clientY,pan:e.button===2||e.shiftKey});
+ previousGesture=gesture();canvas.setPointerCapture(e.pointerId);
+};
+canvas.onpointermove=e=>{
+ const point=pointers.get(e.pointerId);if(!point)return;
+ point.x=e.clientX;point.y=e.clientY;
+ const next=gesture(),dx=next.x-previousGesture.x,dy=next.y-previousGesture.y;
+ if(pointers.size>1){
+  if(next.distance>0&&previousGesture.distance>0)zoomBy(previousGesture.distance/next.distance);
+  panBy(dx,dy);
+ }else if(point.pan){panBy(dx,dy)}else{
+  theta-=dx*.006;phi=Math.max(.001,Math.min(1.5,phi-dy*.006));
+ }
+ previousGesture=next;
+};
+function endPointer(e){if(pointers.delete(e.pointerId))previousGesture=gesture()}
+canvas.onpointerup=endPointer;canvas.onpointercancel=endPointer;canvas.onlostpointercapture=endPointer;
+canvas.addEventListener('wheel',e=>{e.preventDefault();zoomBy(Math.exp(e.deltaY*.001))},{passive:false});
+document.querySelector('#zoom-in').onclick=()=>zoomBy(.8);
+document.querySelector('#zoom-out').onclick=()=>zoomBy(1.25);
 function resize(){renderer.setSize(stage.clientWidth,stage.clientHeight);camera.aspect=stage.clientWidth/stage.clientHeight;camera.updateProjectionMatrix()}new ResizeObserver(resize).observe(stage);resize();
 renderer.setAnimationLoop(()=>{const near=Math.min(.05,radius*.05);if(camera.near!==near){camera.near=near;camera.updateProjectionMatrix()}camera.position.set(target.x+radius*Math.sin(phi)*Math.sin(theta),target.y+radius*Math.cos(phi),target.z+radius*Math.sin(phi)*Math.cos(theta));camera.lookAt(target);renderer.render(scene,camera)});
 
