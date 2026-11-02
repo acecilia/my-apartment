@@ -8,5 +8,6 @@ nav{display:flex;align-items:stretch;gap:26px;min-height:72px;overflow-x:auto;wh
 nav a{display:flex;align-items:center;flex:none;border-bottom:2px solid transparent;text-decoration:none;color:#718078;font-size:12px;padding:0 1px}
 nav a:hover,nav a[aria-current]{color:#264d43;border-color:#264d43}
 a:focus-visible{outline:2px solid #527969;outline-offset:4px}
-@media(max-width:1000px){.navigation{flex-wrap:wrap;gap:5px;padding:12px 16px 0}.brand{min-height:30px}nav{width:100%;min-height:39px;gap:23px}nav a{font-size:11px}}
+@media(max-width:1000px){:host{transition:transform .18s ease}:host([data-scroll-hidden]){transform:translateY(-100%);pointer-events:none}.navigation{flex-wrap:wrap;gap:5px;padding:12px 16px 0}.brand{min-height:30px}nav{width:100%;min-height:44px;gap:23px}nav a{font-size:11px}}
 @media(max-width:600px){nav{gap:14px}nav a{font-size:10px}}
+@media(prefers-reduced-motion:reduce){:host{transition:none}}

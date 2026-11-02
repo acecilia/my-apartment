@@ -206,6 +206,34 @@ function stepStyle(direction) {
 }
 document.querySelector('#previous-style').addEventListener('click', () => stepStyle(-1));
 document.querySelector('#next-style').addEventListener('click', () => stepStyle(1));
+const imageLink = document.querySelector('#viewer-full-image');
+let swipe = null, suppressImageClickUntil = 0;
+imageLink.addEventListener('pointerdown', event => {
+  if (event.pointerType === 'mouse' || !event.isPrimary) { swipe = null; return; }
+  swipe = { id: event.pointerId, x: event.clientX, y: event.clientY, horizontal: false };
+});
+imageLink.addEventListener('pointermove', event => {
+  if (!swipe || swipe.id !== event.pointerId) return;
+  const dx = Math.abs(event.clientX - swipe.x), dy = Math.abs(event.clientY - swipe.y);
+  if (!swipe.horizontal && Math.max(dx, dy) > 12) {
+    if (dy >= dx) { swipe = null; return; }
+    swipe.horizontal = dx > dy * 1.4;
+  }
+});
+imageLink.addEventListener('pointerup', event => {
+  if (!swipe || swipe.id !== event.pointerId) return;
+  const dx = event.clientX - swipe.x, dy = event.clientY - swipe.y;
+  if (swipe.horizontal) {
+    suppressImageClickUntil = performance.now() + 500;
+    if (Math.abs(dx) >= 48 && Math.abs(dx) > Math.abs(dy) * 1.4) stepStyle(dx < 0 ? 1 : -1);
+  }
+  swipe = null;
+});
+imageLink.addEventListener('pointercancel', () => { swipe = null; });
+imageLink.addEventListener('click', event => {
+  if (performance.now() < suppressImageClickUntil) { event.preventDefault(); event.stopPropagation(); }
+}, true);
+document.querySelector('#viewer-image').draggable = false;
 document.querySelector('#before-button').addEventListener('click', () => openStyle(original));
 const range = document.querySelector('#compare-reveal');
 range.addEventListener('input', () => setReveal(range.value));

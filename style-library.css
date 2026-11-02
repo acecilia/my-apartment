@@ -32,6 +32,8 @@
 .viewer-arrows button{border:1px solid #d6ded3;background:white;border-radius:7px;color:#345346;padding:9px 15px;cursor:pointer;font-size:16px}
 .fullwidth-frame{margin:0;background:white;border:1px solid #dfe4de;border-radius:10px;overflow:hidden}
 .fullwidth-frame img{display:block;width:100%;height:auto}
+#viewer-full-image{display:block;touch-action:pan-y pinch-zoom}
+#viewer-image{user-select:none;-webkit-user-drag:none}
 .fullwidth-frame figcaption{display:flex;justify-content:space-between;align-items:center;gap:15px;padding:12px 16px}
 .fullwidth-frame h2{font-size:21px;line-height:1.2;margin:0}
 .fullwidth-frame a{color:#345949;font-size:12px}
