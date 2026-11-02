@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 700" role="img" aria-labelledby="title description">
+<title id="title">Bedroom Closer to window: 2.00 × 2.00 m bed, nightstands, desk and chair</title>
+<desc id="description">Clear room 4.17 by 3.62 metres. Bed head at right, two 0.50 by 0.40 metre nightstands. Desk on left wall, 1.00 metre along wall by 0.60 deep; chair faces left. Four wardrobe doors assumed 0.60 metre each per owner. Bed to closed wardrobe 1.02, beyond open door tip 0.42. Wardrobe-side nightstand gap 0.47 metre. Door-swing conflict: True. Window-side nightstand to glazing 0.05 metre; a negative value is overlap. Official Stoa frame included; chair-to-frame gap 0.73 metre. Overall frame width is mattress plus 0.03 metre; length 2.04 metres.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M10 5 L0 0 L0 10 Z" fill="#426e60"/></marker></defs>
+<style>text{font-family:system-ui,sans-serif;text-anchor:middle;fill:#254b40;font-size:15px}.dim path{fill:none;stroke:#426e60;stroke-width:1.2}.dim text{font-size:15px;font-weight:650;paint-order:stroke;stroke:#fff;stroke-width:5;stroke-linejoin:round}.small{font-size:11px;fill:#6a7c73}.label{font-size:12px;letter-spacing:.5px}.guide{stroke:#aabdb3;stroke-width:1;fill:none}</style>
+<rect width="600" height="700" fill="white"/>
+<text x="300" y="27" class="label">TERRACE / GLAZING</text>
+<rect x="92" y="110" width="417" height="362" fill="#f3f7f2"/>
+<path d="M92,522 V110 M509,110 V522" stroke="#31483f" stroke-width="8" fill="none"/>
+<path d="M116,107 H509 M116,113 H509" stroke="#6e9caa" stroke-width="3"/>
+<rect x="92" y="105" width="24" height="13" fill="#31483f"/>
+<path d="M312.5,107 V113" stroke="#31483f" stroke-width="3"/>
+<text x="300" y="91" class="small">glazing / pier details schematic</text>
+<rect x="247" y="472" width="262" height="55" fill="#e6ddd0" stroke="#a2937e"/>
+<path d="M258,472 L318,472 A60,60 0 0 0 258,412 Z" fill="#dbab66" fill-opacity=".14"/><path d="M318,472 A60,60 0 0 0 258,412 M258,472 V412" fill="none" stroke="#b48a49" stroke-dasharray="4 3" stroke-width="1.4"/><rect x="258" y="472" width="60" height="55" fill="none" stroke="#a2937e"/><path d="M378,472 L318,472 A60,60 0 0 1 378,412 Z" fill="#dbab66" fill-opacity=".14"/><path d="M318,472 A60,60 0 0 1 378,412 M378,472 V412" fill="none" stroke="#b48a49" stroke-dasharray="4 3" stroke-width="1.4"/><rect x="318" y="472" width="60" height="55" fill="none" stroke="#a2937e"/><path d="M378,472 L438,472 A60,60 0 0 0 378,412 Z" fill="#dbab66" fill-opacity=".14"/><path d="M438,472 A60,60 0 0 0 378,412 M378,472 V412" fill="none" stroke="#b48a49" stroke-dasharray="4 3" stroke-width="1.4"/><rect x="378" y="472" width="60" height="55" fill="none" stroke="#a2937e"/><path d="M498,472 L438,472 A60,60 0 0 1 498,412 Z" fill="#dbab66" fill-opacity=".14"/><path d="M438,472 A60,60 0 0 1 498,412 M498,472 V412" fill="none" stroke="#b48a49" stroke-dasharray="4 3" stroke-width="1.4"/><rect x="438" y="472" width="60" height="55" fill="none" stroke="#a2937e"/>
+<path d="M247,472 H509" stroke="#8c7458" stroke-width="3"/>
+<text x="378" y="505" class="label">4 DOORS × 0.60 m</text>
+<g class="dim"><path d="M247,548 L509,548" marker-start="url(#arrow)" marker-end="url(#arrow)"/><text x="378" y="545">2.62 m total frontage</text></g>
+<path d="M156,510 V447" stroke="#9bad9f" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="156" y="536" class="small">from entry</text>
+<!-- Desk 1.00 m along wall, 0.60 m deep. Chair footprint 0.70 m square. -->
+<rect x="92" y="241" width="60" height="100" rx="3" fill="#c8d5df" stroke="#6a8b9b" stroke-width="1.8"/>
+<rect x="97" y="275" width="12" height="32" rx="2" fill="#f4f7f8" stroke="#6a8b9b"/>
+<text x="129" y="291" class="small" transform="rotate(-90 129 291)">DESK 1.00 × 0.60</text>
+<circle cx="197" cy="291" r="35" fill="#dce5eb" fill-opacity=".55" stroke="#8aa3b0" stroke-dasharray="3 3"/>
+<rect x="174" y="270" width="42" height="42" rx="10" fill="#9cb4c1" stroke="#5c7d8e"/>
+<path d="M222,266 Q235,291 222,316" fill="none" stroke="#5c7d8e" stroke-width="6"/>
+<path d="M206,291 H180" stroke="#426e60" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="305" y="168.5" width="204" height="203.0" rx="4" fill="#dfd4bf" stroke="#8d7d5d" stroke-width="1.5"/>
+<rect x="307" y="170.0" width="200" height="200.0" rx="5" fill="#c3d7c9" stroke="#426e60" stroke-width="1.5"/>
+<rect x="464" y="182.0" width="31" height="82.0" rx="7" fill="#f6faf4" stroke="#7d9c88"/>
+<rect x="464" y="276.0" width="31" height="82.0" rx="7" fill="#f6faf4" stroke="#7d9c88"/>
+<path d="M450,174.0 V366.0" stroke="#96b29d"/>
+<text x="392" y="267.0" font-weight="700">2.00 × 2.00 m</text>
+<text x="392" y="290.0" class="small">mattress</text>
+<rect x="469" y="115.0" width="40" height="50" rx="3" fill="#d7c5a9" stroke="#968364" stroke-width="2"/>
+<circle cx="489" cy="140.0" r="8" fill="#f7f0e2" stroke="#968364"/>
+
+<rect x="469" y="375.0" width="40" height="50" rx="3" fill="#f2c2b7" stroke="#b35e49" stroke-width="2"/>
+<path d="M479,391.0 l20,20 m0,-20 l-20,20" stroke="#b35e49" stroke-width="2"/>
+<text x="552" y="291" class="small" transform="rotate(-90 552 291)">HEADBOARD WALL</text>
+<path class="guide" d="M92,98 V49 M509,98 V49 M79,110 H39 M79,472 H39"/>
+<g class="dim"><path d="M92,56 L509,56" marker-start="url(#arrow)" marker-end="url(#arrow)"/><text x="300.5" y="50">4.17 m · clear width</text></g>
+<g class="dim"><path d="M48,110 L48,472" marker-start="url(#arrow)" marker-end="url(#arrow)"/><text x="35" y="291.0" transform="rotate(-90 35 291.0)">3.62 m · glazing → wardrobe front</text></g>
+<g class="dim"><path d="M394,110 L394,168.5" marker-start="url(#arrow)" marker-end="url(#arrow)"/><text x="394" y="145.0">0.585 m</text></g>
+<g class="dim"><path d="M394,371.5 L394,472" marker-start="url(#arrow)" marker-end="url(#arrow)"/><text x="394" y="426.0">1.005 m</text></g>
+<g class="dim"><path d="M232,291 L305,291" marker-start="url(#arrow)" marker-end="url(#arrow)"/><text x="267" y="283">0.73 m</text></g>
+<g class="dim"><path d="M489,425.0 L489,472" marker-start="url(#arrow)" marker-end="url(#arrow)"/><text x="489" y="452.5">0.47 m</text></g>
+<text x="196" y="363" class="small">chair faces left wall</text>
+<text x="273" y="311" class="small">chair → frame</text>
+<text x="300" y="590" class="small">Nightstands: 0.50 × 0.40 m · 0.035 m from Stoa frame</text>
+<text x="300" y="613" class="small">Amber: 0.60 m door swings · red: furniture clash</text>
+<text x="300" y="636" class="small">Closer to window · bed beyond open door tip: 0.42 m</text>
+<text x="300" y="659" class="small">Stoa frame: 2.03 × 2.04 m · mattress 2.00 × 2.00 m</text>
+<text x="300" y="682" class="small">Official Stoa dimensions · base height 0.32 m</text>
+</svg>

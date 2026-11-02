@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en"><head><script src="portable-data.js"></script><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Interior design · My Apartment</title><link rel="stylesheet" href="styles.css"><script defer src="navigation.js"></script></head><body><apartment-navigation></apartment-navigation><main><p>The living-room views are now in <a href="style-explorer.html?view=full">Living room</a>.</p></main>
+<script>
+const previousViews = {
+  green: ['walnut-mushroom', 'livingroom-walnut-mushroom-06.png'],
+  walnut: ['walnut-mushroom', 'livingroom-walnut-mushroom-05.png'],
+  rollers: ['walnut-mushroom', 'livingroom-walnut-mushroom-05.png'],
+  curtains: ['walnut-mushroom', 'livingroom-walnut-mushroom-05.png'],
+  favorite: ['walnut-mushroom', 'livingroom-walnut-mushroom-02.png'],
+  a: ['walnut-mushroom', 'livingroom-walnut-mushroom-02.png'],
+  b: ['mineral-calm', 'livingroom-mineral-calm-02.png'],
+  c: ['deep-walnut', 'livingroom-deep-walnut-02.png'],
+  before: ['before', 'Livingroom 1.PNG'],
+};
+const target = new URL('style-explorer.html', location.href);
+target.searchParams.set('view', 'full');
+const selection = previousViews[location.hash.slice(1)];
+if (selection) {
+  target.searchParams.set('style', selection[0]);
+  target.searchParams.set('variant', selection[1]);
+}
+location.replace(target.href);
+</script></body></html>

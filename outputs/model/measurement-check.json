@@ -1,0 +1,524 @@
+{
+  "units": "m",
+  "checks": {
+    "living_width": {
+      "value": 4.17,
+      "expected": 4.17
+    },
+    "living_total_depth": {
+      "value": 8.77,
+      "expected": 8.77
+    },
+    "bedroom_width": {
+      "value": 4.17,
+      "expected": 4.17
+    },
+    "bedroom_glass_to_closed_wardrobe": {
+      "value": 3.62,
+      "expected": 3.62,
+      "method": "physical wardrobe door face, world coordinates"
+    },
+    "balcony_width": {
+      "value": 9.4,
+      "expected": 9.4
+    },
+    "balcony_depth": {
+      "value": 1.5,
+      "expected": 1.5
+    },
+    "peninsula_length": {
+      "value": 2.75,
+      "expected": 2.75
+    },
+    "worktop_height": {
+      "value": 0.9,
+      "expected": 0.9
+    },
+    "living_ceiling": {
+      "value": 3.0,
+      "expected": 3.0
+    }
+  },
+  "wall_geometry": [
+    {
+      "name": "Left perimeter",
+      "x": -0.2,
+      "y": 0,
+      "w": 0.2,
+      "d": 8.97,
+      "h": 3
+    },
+    {
+      "name": "Living south wall left of entry",
+      "x": 0,
+      "y": 8.77,
+      "w": 3.15,
+      "d": 0.2,
+      "h": 3
+    },
+    {
+      "name": "Living south wall right jamb",
+      "x": 4.17,
+      "y": 8.77,
+      "w": 0.23,
+      "d": 0.2,
+      "h": 3
+    },
+    {
+      "name": "Central structural divider | thickness inferred",
+      "x": 4.17,
+      "y": 0,
+      "w": 0.55,
+      "d": 5.93,
+      "h": 3
+    },
+    {
+      "name": "Right bedroom perimeter",
+      "x": 8.89,
+      "y": 0,
+      "w": 0.21,
+      "d": 4.22,
+      "h": 3
+    },
+    {
+      "name": "Wardrobe back / ensuite division",
+      "x": 6.27,
+      "y": 4.22,
+      "w": 2.83,
+      "d": 0.15,
+      "h": 3
+    },
+    {
+      "name": "Ensuite right structural return",
+      "x": 8.68,
+      "y": 4.37,
+      "w": 0.42,
+      "d": 2.98,
+      "h": 3
+    },
+    {
+      "name": "Ensuite left wall before door",
+      "x": 6.27,
+      "y": 4.37,
+      "w": 0.15,
+      "d": 0.2,
+      "h": 3
+    },
+    {
+      "name": "Ensuite left wall after door",
+      "x": 6.27,
+      "y": 5.47,
+      "w": 0.15,
+      "d": 0.67,
+      "h": 3
+    },
+    {
+      "name": "Shower left partition",
+      "x": 7.14,
+      "y": 6.29,
+      "w": 0.15,
+      "d": 0.91,
+      "h": 3
+    },
+    {
+      "name": "Shower rear",
+      "x": 7.14,
+      "y": 7.2,
+      "w": 1.96,
+      "d": 0.15,
+      "h": 3
+    },
+    {
+      "name": "Powder left wall",
+      "x": 4.17,
+      "y": 7.27,
+      "w": 0.23,
+      "d": 1.5,
+      "h": 3
+    },
+    {
+      "name": "Powder south wall",
+      "x": 4.17,
+      "y": 8.77,
+      "w": 2.72,
+      "d": 0.2,
+      "h": 3
+    },
+    {
+      "name": "Powder right wall",
+      "x": 6.69,
+      "y": 7.27,
+      "w": 0.2,
+      "d": 1.5,
+      "h": 3
+    },
+    {
+      "name": "Powder north left jamb",
+      "x": 4.17,
+      "y": 7.27,
+      "w": 1.08,
+      "d": 0.17,
+      "h": 3
+    },
+    {
+      "name": "Powder north right jamb",
+      "x": 6.15,
+      "y": 7.27,
+      "w": 0.74,
+      "d": 0.17,
+      "h": 3
+    },
+    {
+      "name": "Bedroom door right jamb",
+      "x": 5.62,
+      "y": 5.93,
+      "w": 0.65,
+      "d": 0.15,
+      "h": 3
+    },
+    {
+      "name": "Balcony left end",
+      "x": -0.255,
+      "y": -1.5,
+      "w": 0.16,
+      "d": 1.5,
+      "h": 3
+    },
+    {
+      "name": "Balcony right end",
+      "x": 8.985,
+      "y": -1.5,
+      "w": 0.16,
+      "d": 1.5,
+      "h": 3
+    },
+    {
+      "name": "Bedroom hinge wall return",
+      "x": 4.72,
+      "y": 5.93,
+      "w": 0.24,
+      "d": 0.15,
+      "h": 3,
+      "source": "inferred from plan; unmeasured"
+    },
+    {
+      "name": "Kitchen corner structural wall return",
+      "x": 0,
+      "y": 8.16,
+      "w": 0.76,
+      "d": 0.61,
+      "h": 3,
+      "source": "owner plan and Kitchen 3.PNG; unlabelled offsets inferred"
+    },
+    {
+      "name": "Terrace central structural column",
+      "x": 3.92,
+      "y": -0.3,
+      "w": 1.05,
+      "d": 0.46,
+      "h": 3,
+      "source": "inferred from Floorplan from developer.png and window photographs"
+    }
+  ],
+  "estimated": {
+    "central_wall_thickness": 0.55,
+    "wardrobe_depth": 0.6,
+    "wardrobe_height": 2.65,
+    "bedroom_ceiling": 3.0,
+    "sliding_glazing_height": 2.65,
+    "kitchen_ceiling": 2.65,
+    "door_height": 2.4,
+    "rail_height": 1.1,
+    "tile_grid": 0.6,
+    "shower_fixed_glass_width": 0.72,
+    "shower_clear_entry_width": 0.67
+  },
+  "notes": [
+    "Given dimensions are imposed numerically, not traced from screenshot pixels.",
+    "Bathroom positions, wall thicknesses, small offsets, appliance and cabinet divisions are inferred.",
+    "2.75 peninsula and 3.62 glazing-to-wardrobe-front interpretation confirmed by owner.",
+    "No movable furniture or proposed interior design included."
+  ],
+  "blender_version": "3.6.23",
+  "shower_checks": {
+    "front_solid_divider_present": false,
+    "fixed_glass_width_m": 0.72,
+    "open_entry_width_m": 0.67,
+    "overall_shower_width_m": 1.39,
+    "panel_and_entry_widths": "estimated from photograph, not measured",
+    "glass_anchor": "exterior wall x=8.68m",
+    "opening_side": "interior partition x=7.29m"
+  },
+  "corrections": {
+    "ensuite_door": "hinge-based leaf placed at existing .90m opening; estimated height 2.40m",
+    "bedroom_socket": "mounted on bedroom face of central divider",
+    "wc_type": "both wall-hung with concealed cistern; estimated seat height .425m, floor clearance .18m",
+    "laundry": "solid service block replaced by hollow .72 x 1.13m alcove and louvred oak doors; internal dimensions estimated; no washer added",
+    "corridor_orientation": "bedroom left, powder right, laundry straight ahead, per owner and Corridor 1.PNG",
+    "fridge_side_cabinets": "added rear-wall pale upper pair, open lit shelf niche, marble backsplash, lower cupboard and drawer fronts, per Kitchen 3.PNG; divisions estimated",
+    "powder_door": "closed leaf and oak frame matching Corridor 1.PNG",
+    "bedroom_door_corner": "added 0.24m return inferred from plan; shifted hinge/opening to attach to it",
+    "bathroom_materials": "dark grey/brown cabinet fronts; black shower wall opposite glazing",
+    "bathroom_sinks": "Both placeholders replaced with hollow oval vessel basins. Long axes follow plan Y, parallel to vanity wall; taps on rear wall side, pointing into bowl.",
+    "wc_flush_plates": "Both plates use polished silver chrome: metallic 1.0, roughness 0.14. Browser environment reflections support the chrome appearance.",
+    "door_timber": "Room doors, frames and laundry louvres share a deeper warm brown oak, visually matched to Corridor 1.PNG. Exact color is an estimate; photos are not color calibrated.",
+    "powder_vanity": "Cabinet and countertop span the full 1.33 m between side walls at plan Y=7.44 and 8.77 m, per owner and powder-room photographs. Rear meets the supporting wall at X=4.40; existing front at X=5.00 retained. Basin remains centered along the wall.",
+    "door_frames": "Room, entry and laundry frames rebuilt from their actual wall openings, with reveal linings and matching 60 mm mitred casing on both wall faces. Added missing bedroom frame and wall lintels above laundry and entry; replaced overlapping pieces and aligned leaf pivots. Trim details and door heights remain estimates from photos.",
+    "kitchen_corner": "Solid full-height wall return at plan X=0\u20130.76, Y=8.16\u20138.77, with attached marble wall finish. Cabinets and counters meet its two faces without occupying its footprint. Left upper run and open end shelves follow Kitchen 3.PNG. Unlabelled wall-return depth and cabinet divisions remain inferred.",
+    "kitchen_cabinet_levels": "Upper shells on both runs align from 1.55 to 2.65 m, meeting the estimated kitchen bulkhead used by the model. Matching 4 mm door reveals; four shelf boards have the same levels in both open niches. Cabinet dimensions remain estimates from photographs.",
+    "kitchen_sink_orientation": "Double undermount bowls and drains oriented as the developer plan. Tap base at plan Y=6.12, on living-room side; spout projects toward positive Y into the left bowl. Added basin clearance inside cabinet.",
+    "hob_upper_end_alignment": "Wall cabinets and end shelves extend to plan Y=6.04, aligned with the living-room front edge of the peninsula, per owner clarification.",
+    "terrace_door_spacing": "Removed equal 0.16 m blank piers at both ends. Living glazing meets the outer wall at X=0 and central column at X=3.92; bedroom glazing meets the column at X=4.97 and outer wall at X=8.89. Shared column has estimated 0.25 m returns on either side of the divider, inferred from developer plan and window photos. Panel/frame details and column projection remain estimates.",
+    "kitchen_cabinet_textures": "Kitchen 4.jpg and Kitchen 5.jpg clarify the finishes: white upper fronts and the outward grey peninsula faces are vertically fluted; the integrated fridge and kitchen-facing lower fronts are smooth cool dark grey. Incorrect coarse 60.6 mm groove meshes removed. Fluted areas use a shared estimated 20 mm pitch with shallow narrow grooves, while shelf interiors are smooth. Physical-scale UVs and packed/embedded PBR maps are retained.",
+    "kitchen_lower_cabinets": "Added 4 smooth grey kitchen-facing peninsula doors, 3 drawers on each side of the oven and a drawer below it, with recessed finger-pull rails and toe spaces. Closed the old 30 mm carcass gap using a fitted L-shaped inner corner filler. Oven now sits in an actual carcass aperture. Peninsula and hob worktops form one closed unioned solid, preserving the sink opening and removing the overlapping/beveled joint. Divisions and unlabelled dimensions are estimates from Kitchen 4.jpg and Kitchen 5.jpg.",
+    "kitchen_plinths": "All exposed lower cabinet fronts and ends have recessed plinths using the exact same grey material as the cabinet fronts. Coverage includes hob run, sink run, terrace-facing peninsula, peninsula end, rear cabinets/fridge and exposed fridge end. The darker appearance in photographs is shadow, not black material. Existing 0.13 m toe-space top is retained; widths/recesses remain estimates.",
+    "ensuite_layout": "Cabinet and stone top extend to the left wall at plan Y=4.37, closing the former 0.18 m model gap. Existing basin/tap positions are retained. The WC bowl, closed seat, mount and polished chrome plate move together to the center of the strip between the vanity and shower glass, following Ensuite bathroom 1.PNG. WC center is a photo-based interpretation, not a measured plumbing location."
+  },
+  "validation": {
+    "glass_meets_exterior_wall": true,
+    "socket_meets_bedroom_wall": true,
+    "no_solid_shower_front_wall": true,
+    "no_solid_laundry_block": true,
+    "Ensuite WC wall-hung bowl floor clearance": 0.18,
+    "Powder WC wall-hung bowl floor clearance": 0.18,
+    "existing_v04_geometry_retained": true,
+    "bedroom_frame_attached_to_hinge_return": true
+  },
+  "sink_checks": {
+    "ensuite": {
+      "long_axis": "plan Y, parallel to wall and vanity front",
+      "length_m": 0.6,
+      "depth_m": 0.36,
+      "height_m": 0.131,
+      "countertop_fit": true,
+      "tap_on_wall_side": true,
+      "tap_points_into_bowl": true,
+      "dimensions_source": "estimated from supplied photographs"
+    },
+    "powder": {
+      "long_axis": "plan Y, parallel to wall and vanity front",
+      "length_m": 0.49,
+      "depth_m": 0.32,
+      "height_m": 0.131,
+      "countertop_fit": true,
+      "tap_on_wall_side": true,
+      "tap_points_into_bowl": true,
+      "dimensions_source": "estimated from supplied photographs"
+    }
+  },
+  "material_checks": {
+    "flush_plates_chrome": true,
+    "door_timber_linear_rgb": [
+      0.19,
+      0.078,
+      0.023
+    ],
+    "door_timber_object_count": 85,
+    "geometry_retained": true
+  },
+  "powder_vanity_checks": {
+    "side_wall_to_side_wall": true,
+    "width_m": 1.33,
+    "depth_m": 0.6,
+    "rear_meets_wall": true,
+    "basin_centered": true
+  },
+  "model_state": "Current existing apartment",
+  "door_frame_checks": {
+    "Bedroom": {
+      "rough_opening_width_m": 0.9,
+      "head_height_m": 2.4,
+      "casing_width_m": 0.06,
+      "wall_depth_m": 0.15,
+      "frame_parts": 9,
+      "mitred_corners": true,
+      "clear_opening_retained": true,
+      "leaf_width_m": 0.89,
+      "side_gap_m": 0.004,
+      "hinge_plan_xy": [
+        4.965000152587891,
+        5.954999923706055
+      ]
+    },
+    "Ensuite": {
+      "rough_opening_width_m": 0.9,
+      "head_height_m": 2.4,
+      "casing_width_m": 0.06,
+      "wall_depth_m": 0.15,
+      "frame_parts": 9,
+      "mitred_corners": true,
+      "clear_opening_retained": true,
+      "leaf_width_m": 0.89,
+      "side_gap_m": 0.004,
+      "hinge_plan_xy": [
+        6.339000225067139,
+        4.574999809265137
+      ]
+    },
+    "Powder": {
+      "rough_opening_width_m": 0.9,
+      "head_height_m": 2.4,
+      "casing_width_m": 0.06,
+      "wall_depth_m": 0.17,
+      "frame_parts": 9,
+      "mitred_corners": true,
+      "clear_opening_retained": true,
+      "leaf_width_m": 0.89,
+      "side_gap_m": 0.004,
+      "hinge_plan_xy": [
+        5.255000114440918,
+        7.295000076293945
+      ]
+    },
+    "Entry": {
+      "rough_opening_width_m": 1.02,
+      "head_height_m": 2.4,
+      "casing_width_m": 0.06,
+      "wall_depth_m": 0.2,
+      "frame_parts": 9,
+      "mitred_corners": true,
+      "clear_opening_retained": true,
+      "leaf_width_m": 1.01,
+      "side_gap_m": 0.004,
+      "hinge_plan_xy": [
+        3.1549999713897705,
+        8.795000076293945
+      ]
+    },
+    "Laundry": {
+      "rough_opening_width_m": 1.13,
+      "head_height_m": 2.4,
+      "casing_width_m": 0.06,
+      "wall_depth_m": 0.15,
+      "frame_parts": 9,
+      "mitred_corners": true,
+      "clear_opening_retained": true
+    }
+  },
+  "kitchen_corner_checks": {
+    "solid_wall_height_m": 3.0,
+    "cabinets_overlap_wall": false,
+    "left_run_meets_wall_y": 8.16,
+    "rear_run_meets_wall_x": 0.76,
+    "reference": "Kitchen 3.PNG and owner unfurnished plan"
+  },
+  "references": {
+    "finished_property_plan": "source/1 - Floorplan/Floorplan from developer.png",
+    "confirmed_clear_dimensions": "source/1 - Floorplan/Floorplan without furniture.png",
+    "kitchen_corner_photo": "source/2 - Flat images/Kitchen 3.PNG",
+    "door_and_laundry_photo": "source/2 - Flat images/Corridor 1.PNG"
+  },
+  "developer_plan_review": {
+    "wall_layout": "Stepped kitchen wall return and room/door arrangement cross-checked against the developer drawing. Unlabelled offsets and trim profiles remain estimates.",
+    "labelled_overall_values_m": {
+      "balcony_span": 9.55,
+      "balcony_depth": 1.62,
+      "flat_overall_width": 8.98,
+      "overall_depth_including_balcony": 10.57
+    },
+    "dimension_basis": "Developer overall dimension lines are recorded separately from the owner-confirmed internal clear room dimensions; baselines differ."
+  },
+  "kitchen_fixture_checks": {
+    "upper_shell_bottom_m": 1.55,
+    "upper_shell_top_m": 2.65,
+    "shelf_levels_m": [
+      1.55,
+      1.9083333333333334,
+      2.2666666666666666,
+      2.625
+    ],
+    "tap_base_plan_y": 6.12,
+    "tap_on_living_side": true,
+    "spout_points_into_bowls": true,
+    "reference": "Kitchen 3.PNG and Floorplan from developer.png"
+  },
+  "terrace_door_checks": {
+    "living": {
+      "opening_start_x": 0,
+      "opening_end_x": 3.92,
+      "opening_width_m": 3.92,
+      "outer_wall_gap_m": 0,
+      "central_column_return_m": 0.25,
+      "two_sliding_panels": true
+    },
+    "bedroom": {
+      "opening_start_x": 4.97,
+      "opening_end_x": 8.89,
+      "opening_width_m": 3.92,
+      "outer_wall_gap_m": 0,
+      "central_column_return_m": 0.25,
+      "two_sliding_panels": true
+    }
+  },
+  "viewer_checks": {
+    "single_current_model": true,
+    "measurements_removed_from_3d": true,
+    "separate_hide_doors_removed": true,
+    "cutaway_walls_frames_doors": true,
+    "door_clipping_and_restoration_reviewed": true,
+    "review_mode": "compatibility 3D viewer"
+  },
+  "cabinet_texture_checks": {
+    "upper_fronts": 5,
+    "lower_units": 27,
+    "smooth_upper_interiors": 16,
+    "coarse_placeholder_ribs_removed": 0,
+    "obsolete_duplicate_shelves_removed": 0,
+    "fluted_white_upper_fronts": 5,
+    "fluted_grey_terrace_fronts": 5,
+    "smooth_grey_fridge_and_inner_fronts": true,
+    "flute_pitch_m": 0.02,
+    "pitch_is_estimated": true,
+    "texture_images_packed": true,
+    "uv_scale_m": [
+      0.6,
+      1.2
+    ],
+    "geometry_and_layout_retained_except_obsolete_grooves": true
+  },
+  "lower_cabinet_checks": {
+    "sink_side_doors": 4,
+    "oven_side_drawers": 6,
+    "below_oven_drawers": 1,
+    "fronts_total": 11,
+    "smooth_grey": true,
+    "corner_gap_closed": true,
+    "continuous_worktop_manifold": true,
+    "dimensions_estimated": true,
+    "references": [
+      "Kitchen 4.jpg",
+      "Kitchen 5.jpg"
+    ]
+  },
+  "kitchen_plinth_checks": {
+    "material": "Kitchen grey smooth cabinet finish",
+    "same_material_as_cabinets": true,
+    "runs": [
+      "Hob run",
+      "Sink run",
+      "Terrace-facing peninsula",
+      "Peninsula end",
+      "Rear cabinets and fridge",
+      "Fridge exposed end"
+    ],
+    "all_exposed_fronts_and_ends_covered": true,
+    "recessed": true,
+    "height_top_m": 0.13,
+    "dimensions_estimated": true
+  },
+  "ensuite_layout_checks": {
+    "cabinet_touches_left_wall": true,
+    "counter_touches_left_wall": true,
+    "vanity_plan_y": [
+      4.369999885559082,
+      5.400000095367432
+    ],
+    "wc_center_plan_y": 5.8399999141693115,
+    "wc_shift_m": 0.15999984741210938,
+    "wc_to_vanity_clear_m": 0.25999975204467773,
+    "wc_to_shower_clear_m": 0.25999975204467773,
+    "wc_parts_aligned": 4,
+    "wc_position_is_estimated": true,
+    "reference": "Ensuite bathroom 1.PNG"
+  }
+}

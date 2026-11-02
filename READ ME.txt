@@ -1,0 +1,12 @@
+MY APARTMENT — PORTABLE WEBSITE
+
+Open index.html in Chrome, Edge, Firefox or Safari.
+The complete site works locally without a server or internet.
+All current tabs, including Living room, Bedroom, the 3D viewer, photographs, design comparisons and material boards are included.
+For the 3D model directly, open model.html.
+
+TO SHARE
+Copy this entire unzipped folder. Open index.html inside the copied folder.
+Keep the HTML files and their accompanying folders together.
+
+This is a snapshot of the website when copied; later live-project edits do not automatically change this copy.

@@ -1,0 +1,267 @@
+{
+  "units": "m",
+  "updated_local": "2026-11-02 Asia/Dubai",
+  "sources": [
+    "source/1 - Floorplan/Floorplan without furniture.png",
+    "source/1 - Floorplan/Floorplan from developer.png",
+    "source/2 - Flat images/Bedroom wardroves 1.PNG",
+    "source/2 - Flat images/Bedroom wardroves 2.PNG",
+    "source/2 - Flat images/Bedroom wardroves 3.PNG"
+  ],
+  "confirmed_clear_room": {
+    "width_m": 4.17,
+    "glazing_to_closed_wardrobe_front_m": 3.62
+  },
+  "wardrobe": {
+    "derived_frontage_m": 2.62,
+    "formula": "4.17 - 1.55",
+    "photo_door_count": 4,
+    "door_width_m": 0.6,
+    "door_width_status": "0.60 m assumed at owner request, supersedes division-derived 0.655 m.",
+    "opening_degrees": 90,
+    "layout": "Two paired sets. Remaining 0.22 m distributed as schematic end margins; exact panels/hinge offsets not surveyed."
+  },
+  "proposed_furniture": {
+    "bed_frame": {
+      "product": "Woodendot Stoa Walnut Decor",
+      "official_180_overall_m": [
+        1.83,
+        2.04,
+        0.32
+      ],
+      "official_200_overall_m": [
+        2.03,
+        2.04,
+        0.32
+      ],
+      "selected_layout": "180-window",
+      "source": "outputs/bedroom-stoa-v01/product-specification.json"
+    },
+    "nightstands": {
+      "quantity": 2,
+      "width_along_wall_m": 0.5,
+      "depth_m": 0.4,
+      "bed_gap_m": 0.05
+    },
+    "desk": {
+      "width_along_left_wall_m": 1.0,
+      "depth_m": 0.6,
+      "centre_y_from_glazing_m": 1.81
+    },
+    "chair": {
+      "footprint_m": [
+        0.7,
+        0.7
+      ],
+      "centre_xy_m": [
+        1.05,
+        1.81
+      ],
+      "facing": "left wall",
+      "working_envelope_from_left_wall_m": 1.4
+    }
+  },
+  "layout": "Headboard right; centred or window-shifted bed, unchanged 0.50 along wall x 0.40 deep nightstands; desk and chair at left wall. Terrace-door marker at glazing midpoint.",
+  "formulas": {
+    "side_gap": "(3.62 - mattress width) / 2",
+    "bed_beyond_open_leaf": "side gap - 0.60",
+    "nightstand_to_wardrobe": "wardrobe gap - 0.05 - 0.50",
+    "chair_to_bed": "4.17 - 2.00 - 1.40"
+  },
+  "limitations": [
+    "Centred layouts clash with wardrobe doors. Window-shifted 1.80 m layout clears assumed furniture/door footprints; shifted 2.00 m keeps window nightstand 0.05 m inside glazing but wardrobe-side nightstand clashes with door sweep by 0.13 m. Clashes shown red, nightstands not rotated.",
+    "Owner selects Woodendot Stoa Walnut Decor, 1.80 \u00d7 2.00 m mattress in window-shifted layout. Official overall frame 1.83 \u00d7 2.04 \u00d7 0.32 m; comparison 2.03 \u00d7 2.04 \u00d7 0.32 m. Bed frame drawn flush to head wall. No purchase authorized.",
+    "Nightstands and chair dimensions are proposed planning sizes, not chosen products.",
+    "90-degree door opening assumed. Cabinet depth, margins, pier and glazing divisions schematic. Curtains not included."
+  ],
+  "options": [
+    {
+      "id": "180",
+      "position": "centred",
+      "label": "Centred",
+      "shift_toward_window_m": 0.0,
+      "mattress_m": [
+        1.8,
+        2.0
+      ],
+      "glazing_clearance_m": 0.91,
+      "closed_wardrobe_clearance_m": 0.91,
+      "foot_to_wall_m": 2.17,
+      "bed_beyond_open_door_tip_m": 0.31,
+      "nightstand_to_closed_wardrobe_m": 0.36,
+      "nightstand_door_swing_conflict": true,
+      "window_nightstand_gap_m": 0.36,
+      "window_nightstand_conflict": false,
+      "nightstand_rotation_degrees": 0,
+      "chair_to_mattress_m": 0.75,
+      "frame_allowance_width_length_m": [
+        0.03,
+        0.04
+      ],
+      "frame_overall_min_m": [
+        1.83,
+        2.04
+      ],
+      "frame_overall_max_m": [
+        1.83,
+        2.04
+      ],
+      "frame_overall_m": [
+        1.83,
+        2.04,
+        0.32
+      ],
+      "frame_to_glazing_at_max_m": 0.895,
+      "frame_to_wardrobe_at_max_m": 0.895,
+      "chair_to_frame_clearance_range_m": [
+        0.73,
+        0.73
+      ],
+      "nightstand_to_frame_gap_range_m": [
+        0.035,
+        0.035
+      ]
+    },
+    {
+      "id": "200",
+      "position": "centred",
+      "label": "Centred",
+      "shift_toward_window_m": 0.0,
+      "mattress_m": [
+        2.0,
+        2.0
+      ],
+      "glazing_clearance_m": 0.81,
+      "closed_wardrobe_clearance_m": 0.81,
+      "foot_to_wall_m": 2.17,
+      "bed_beyond_open_door_tip_m": 0.21,
+      "nightstand_to_closed_wardrobe_m": 0.26,
+      "nightstand_door_swing_conflict": true,
+      "window_nightstand_gap_m": 0.26,
+      "window_nightstand_conflict": false,
+      "nightstand_rotation_degrees": 0,
+      "chair_to_mattress_m": 0.75,
+      "frame_allowance_width_length_m": [
+        0.03,
+        0.04
+      ],
+      "frame_overall_min_m": [
+        2.03,
+        2.04
+      ],
+      "frame_overall_max_m": [
+        2.03,
+        2.04
+      ],
+      "frame_overall_m": [
+        2.03,
+        2.04,
+        0.32
+      ],
+      "frame_to_glazing_at_max_m": 0.795,
+      "frame_to_wardrobe_at_max_m": 0.795,
+      "chair_to_frame_clearance_range_m": [
+        0.73,
+        0.73
+      ],
+      "nightstand_to_frame_gap_range_m": [
+        0.035,
+        0.035
+      ]
+    },
+    {
+      "id": "180-window",
+      "position": "window",
+      "label": "Closer to window",
+      "shift_toward_window_m": 0.29,
+      "mattress_m": [
+        1.8,
+        2.0
+      ],
+      "glazing_clearance_m": 0.62,
+      "closed_wardrobe_clearance_m": 1.2,
+      "foot_to_wall_m": 2.17,
+      "bed_beyond_open_door_tip_m": 0.6,
+      "nightstand_to_closed_wardrobe_m": 0.65,
+      "nightstand_door_swing_conflict": false,
+      "window_nightstand_gap_m": 0.07,
+      "window_nightstand_conflict": false,
+      "nightstand_rotation_degrees": 0,
+      "chair_to_mattress_m": 0.75,
+      "frame_allowance_width_length_m": [
+        0.03,
+        0.04
+      ],
+      "frame_overall_min_m": [
+        1.83,
+        2.04
+      ],
+      "frame_overall_max_m": [
+        1.83,
+        2.04
+      ],
+      "frame_overall_m": [
+        1.83,
+        2.04,
+        0.32
+      ],
+      "frame_to_glazing_at_max_m": 0.605,
+      "frame_to_wardrobe_at_max_m": 1.185,
+      "chair_to_frame_clearance_range_m": [
+        0.73,
+        0.73
+      ],
+      "nightstand_to_frame_gap_range_m": [
+        0.035,
+        0.035
+      ]
+    },
+    {
+      "id": "200-window",
+      "position": "window",
+      "label": "Closer to window",
+      "shift_toward_window_m": 0.21,
+      "mattress_m": [
+        2.0,
+        2.0
+      ],
+      "glazing_clearance_m": 0.6,
+      "closed_wardrobe_clearance_m": 1.02,
+      "foot_to_wall_m": 2.17,
+      "bed_beyond_open_door_tip_m": 0.42,
+      "nightstand_to_closed_wardrobe_m": 0.47,
+      "nightstand_door_swing_conflict": true,
+      "window_nightstand_gap_m": 0.05,
+      "window_nightstand_conflict": false,
+      "nightstand_rotation_degrees": 0,
+      "chair_to_mattress_m": 0.75,
+      "frame_allowance_width_length_m": [
+        0.03,
+        0.04
+      ],
+      "frame_overall_min_m": [
+        2.03,
+        2.04
+      ],
+      "frame_overall_max_m": [
+        2.03,
+        2.04
+      ],
+      "frame_overall_m": [
+        2.03,
+        2.04,
+        0.32
+      ],
+      "frame_to_glazing_at_max_m": 0.585,
+      "frame_to_wardrobe_at_max_m": 1.005,
+      "chair_to_frame_clearance_range_m": [
+        0.73,
+        0.73
+      ],
+      "nightstand_to_frame_gap_range_m": [
+        0.035,
+        0.035
+      ]
+    }
+  ]
+}

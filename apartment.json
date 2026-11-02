@@ -1,0 +1,190 @@
+{
+  "project": "My Apartment",
+  "stage": "style-discovery",
+  "sourcePlan": "source/1 - Floorplan/Floorplan without furniture.png",
+  "dimensionUnits": "m",
+  "geometryStatus": "room zones interpreted from owner plan; not site-verified",
+  "rooms": [
+    {
+      "id": "living",
+      "name": "Living & kitchen",
+      "dimensions": [
+        "4.17",
+        "5.37",
+        "8.77",
+        "2.75",
+        "2.73",
+        "0.76"
+      ],
+      "fixed": [
+        "Fitted kitchen shown on plan"
+      ],
+      "summary": "Open living and kitchen zone. The fitted kitchen stays in place; movable room items are excluded from this base.",
+      "photos": [
+        "Kitchen 1.PNG",
+        "Kitchen 2.PNG",
+        "Kitchen 3.PNG",
+        "Kitchen and livingroom 1.PNG",
+        "Kitchen and livingroom 2.PNG",
+        "Kitchen and livingroom 3.PNG",
+        "Kitchen and livingroom 4.PNG",
+        "Kitchen and livingroom 5.PNG",
+        "Livingroom 1.PNG",
+        "Livingroom 2.PNG",
+        "Livingroom 3.PNG"
+      ]
+    },
+    {
+      "id": "bedroom",
+      "name": "Bedroom",
+      "dimensions": [
+        "4.17",
+        "3.62"
+      ],
+      "fixed": [
+        "Built-in wardrobes shown on plan"
+      ],
+      "summary": "Private room with built-in wardrobes indicated on the plan. Confirm their exact boundaries and door operation on site.",
+      "photos": [
+        "Bedroom 1.PNG",
+        "Bedroom 2.PNG",
+        "Bedroom wardroves 1.PNG",
+        "Bedroom wardroves 2.PNG",
+        "Bedroom wardroves 3.PNG",
+        "Bedroom window 1.PNG",
+        "Bedroom window 2.PNG"
+      ]
+    },
+    {
+      "id": "hall",
+      "name": "Corridor",
+      "dimensions": [
+        "5.93",
+        "2.36",
+        "1.55"
+      ],
+      "fixed": [
+        "Door openings and circulation walls"
+      ],
+      "summary": "Circulation between the main room, bedroom, entry, and service areas. Door swings and clear routes matter in later layouts.",
+      "photos": [
+        "Corridor 1.PNG"
+      ]
+    },
+    {
+      "id": "bathrooms",
+      "name": "Bathrooms",
+      "dimensions": [
+        "2.26",
+        "2.29",
+        "1.77",
+        "1.59",
+        "1.39",
+        "1.33",
+        "1.20",
+        "0.91"
+      ],
+      "fixed": [
+        "Ensuite and powder-room fixtures shown on plan"
+      ],
+      "summary": "Your image names identify an ensuite bathroom and a powder room. Fixture symbols are recorded as existing-plan information, not selected products.",
+      "photos": [
+        "Ensuite bathroom 1.PNG",
+        "Powder room 1.PNG",
+        "Powder room 2.PNG"
+      ]
+    },
+    {
+      "id": "balcony",
+      "name": "Terrace / balcony",
+      "dimensions": [
+        "9.40",
+        "1.50"
+      ],
+      "fixed": [
+        "Balcony edge and glazing shown on plan"
+      ],
+      "summary": "Long terrace adjoining the main rooms. Keep the access route and glazing clear in later layouts.",
+      "photos": [
+        "Terrace 1.PNG",
+        "Terrace 2.PNG",
+        "Terrace 3.PNG",
+        "Terrace 4.PNG"
+      ]
+    },
+    {
+      "id": "laundry",
+      "name": "Laundry alcove",
+      "dimensions": [],
+      "fixed": [
+        "Louvred doors visible straight ahead in Corridor 1.PNG"
+      ],
+      "summary": "Owner-confirmed space for a washing machine. Internal dimensions are estimated. No machine has been added to the empty model.",
+      "photos": [
+        "Corridor 1.PNG"
+      ]
+    }
+  ],
+  "supportingContext": [
+    "Pool 1.PNG",
+    "Pool 2.PNG",
+    "Pool 3.PNG",
+    "Views 1.PNG",
+    "Views 2.PNG",
+    "Views 3.PNG",
+    "Views 4.PNG",
+    "Views 5.PNG",
+    "Views 6.PNG",
+    "Views 7.PNG",
+    "Views 8.PNG",
+    "Views 9.PNG",
+    "Views 10.PNG",
+    "Views 11.PNG"
+  ],
+  "designBrief": {
+    "confirmed": [
+      "minimalist",
+      "calm",
+      "texture",
+      "natural tones",
+      "tactile textures liked",
+      "darker walnut acceptable"
+    ],
+    "dislikes": [
+      "overloaded interiors",
+      "strong decor colours",
+      "painted putty TV console",
+      "earlier uniformly brown proposals that feel dated"
+    ],
+    "budget": "unrestricted for exploration; purchases not authorized",
+    "study": "outputs/style-study-v02/walnut-mushroom.png",
+    "selection": "Kensington Waters primary; all room styles remain open for comparison",
+    "sofaColours": "White and grey explicitly open for exploration alongside mushroom",
+    "tableReference": "Mizoen: simple rectangular pale-wood table; explore chairs and bench seating"
+  },
+  "model": {
+    "stage": "Current model ready for owner review",
+    "native": "outputs/model/apartment-existing.blend",
+    "glb": "outputs/model/apartment-existing.glb",
+    "viewer": "model.html",
+    "blender": "3.6.23",
+    "livingCeiling": 3.0,
+    "worktopHeight": 0.9,
+    "confirmedClarifications": {
+      "peninsulaLength": 2.75,
+      "livingWidth": 4.17,
+      "bedroomGlassToClosedWardrobeDoor": 3.62
+    }
+  },
+  "photoCatalogue": "photo-catalogue.json",
+  "referencePlans": [
+    {
+      "path": "source/1 - Floorplan/Floorplan from developer.png",
+      "role": "Latest finished-property drawing; overall dimensions use different baselines from clear room dimensions"
+    },
+    {
+      "path": "source/1 - Floorplan/Floorplan without furniture.png",
+      "role": "Owner-confirmed clear dimensions and interactive zone overlay"
+    }
+  ]
+}

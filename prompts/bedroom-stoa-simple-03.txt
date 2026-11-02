@@ -1,0 +1,9 @@
+Edit target: MyApartment/4 - Interior design proposals/bedroom-stoa-walnut-03.png
+
+Use case: precise-object-edit. Edit ONLY THE BEDDING in this furnished bedroom image, creating a simple everyday bed.
+
+Remove the brown/taupe/greige knitted throw completely. Remove every decorative cushion and all extra pillows. The bed must have EXACTLY TWO ordinary white sleeping pillows in ONE row at the headboard: one for the left sleeper and one for the right sleeper. No pillows behind them, no extra shams, bolsters or centre cushion.
+
+Use ONE plain warm-white Nordic duvet with a simple matte cotton cover. It lies naturally over the mattress and falls LOOSELY over ALL THREE free edges: the foot and both long sides. The duvet must NOT be tucked under the mattress at the foot or sides. No tight hospital corners, no sheet dipped/wrapped under the mattress, no bed runner, blanket or throw, no decorative fold-back or layered stripe of sheets. No shiny hotel styling. The hanging hem stays naturally above the floor, with soft casual folds. Nothing else on the bed.
+
+Preserve EVERYTHING ELSE exactly: camera position and framing; bed and both nightstand positions; walnut Stoa base and thin headboard; art, two lamps, nightstands; desk, office chair, laptop; the room shell, beige tiled floor, white wardrobes and doors, glazing, lighting and all furniture proportions. Do not centre, rotate, move, resize or redesign the bed or furniture. Retain the same perspective and warm daylight. Only bedding changes. One photorealistic image, same aspect ratio as input; no text or watermark.

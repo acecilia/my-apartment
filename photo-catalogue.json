@@ -1,0 +1,451 @@
+{
+  "updated_local": "2026-10-25 Asia/Dubai",
+  "default_filter": "all",
+  "authority": "Owner-labelled originals in MyApartment/2 - Flat images",
+  "photos": [
+    {
+      "id": "7cffe15bce270f3af4b0e4268a3688bb72738c8d397c5bd6b097c29d805657e8",
+      "file": "Bedroom 1.PNG",
+      "title": "Bedroom 1",
+      "category": "Bedroom",
+      "groups": [
+        "bedroom"
+      ],
+      "image": "source/2 - Flat images/Bedroom 1.PNG",
+      "aliases": []
+    },
+    {
+      "id": "e06ea43eb62484cc83fbcaa32067b864c1e5014b067b820bca481de57aa4b2c2",
+      "file": "Bedroom 2.PNG",
+      "title": "Bedroom 2",
+      "category": "Bedroom",
+      "groups": [
+        "bedroom"
+      ],
+      "image": "source/2 - Flat images/Bedroom 2.PNG",
+      "aliases": []
+    },
+    {
+      "id": "6ead91d117a0cb9bede7a43fa3f63e7eacceced30d465f0668c6f6cfed88cda2",
+      "file": "Bedroom wardroves 1.PNG",
+      "title": "Bedroom wardrobes 1",
+      "category": "Bedroom",
+      "groups": [
+        "bedroom"
+      ],
+      "image": "source/2 - Flat images/Bedroom wardroves 1.PNG",
+      "aliases": []
+    },
+    {
+      "id": "006587a0157392748615cd818cadd607036bde313bc897eb137751124c63fd27",
+      "file": "Bedroom wardroves 2.PNG",
+      "title": "Bedroom wardrobes 2",
+      "category": "Bedroom",
+      "groups": [
+        "bedroom"
+      ],
+      "image": "source/2 - Flat images/Bedroom wardroves 2.PNG",
+      "aliases": []
+    },
+    {
+      "id": "d21031c166ec2d2321cef4a20bce9ed7b4644333ecae9059444d0f86319c7443",
+      "file": "Bedroom wardroves 3.PNG",
+      "title": "Bedroom wardrobes 3",
+      "category": "Bedroom",
+      "groups": [
+        "bedroom"
+      ],
+      "image": "source/2 - Flat images/Bedroom wardroves 3.PNG",
+      "aliases": []
+    },
+    {
+      "id": "62135c930a53b6b3efc65b3e1422ae399dea74938f611eb7f55869a45de871be",
+      "file": "Bedroom window 1.PNG",
+      "title": "Bedroom window 1",
+      "category": "Bedroom",
+      "groups": [
+        "bedroom"
+      ],
+      "image": "source/2 - Flat images/Bedroom window 1.PNG",
+      "aliases": []
+    },
+    {
+      "id": "a2f4db7b91a5a67e29a56b2716ef1839add8e8685d08a9fa9940972b8c842b3b",
+      "file": "Bedroom window 2.PNG",
+      "title": "Bedroom window 2",
+      "category": "Bedroom",
+      "groups": [
+        "bedroom"
+      ],
+      "image": "source/2 - Flat images/Bedroom window 2.PNG",
+      "aliases": []
+    },
+    {
+      "id": "1451176bf96a2366e8cf518c1a8aea48d202b7bd0bb656ffaaf3e1bf9f4be886",
+      "file": "Corridor 1.PNG",
+      "title": "Corridor 1",
+      "category": "Corridor / laundry doors",
+      "groups": [
+        "hall",
+        "laundry"
+      ],
+      "image": "source/2 - Flat images/Corridor 1.PNG",
+      "aliases": []
+    },
+    {
+      "id": "b081fd59192e182b5fdfbcc641a08699a13b23565a3643e148304cc14bb6eb91",
+      "file": "Ensuite bathroom 1.PNG",
+      "title": "Ensuite bathroom 1",
+      "category": "Ensuite bathroom",
+      "groups": [
+        "bathrooms",
+        "ensuite"
+      ],
+      "image": "source/2 - Flat images/Ensuite bathroom 1.PNG",
+      "aliases": []
+    },
+    {
+      "id": "ecb00163917576c3481e547141523c2525720793d52fbb730e9a5e4eb13736a0",
+      "file": "Kitchen 1.PNG",
+      "title": "Kitchen 1",
+      "category": "Living / kitchen",
+      "groups": [
+        "living"
+      ],
+      "image": "source/2 - Flat images/Kitchen 1.PNG",
+      "aliases": []
+    },
+    {
+      "id": "3df15a1992d55b52bed58b1288f7d7b5d65c051f88881502f65a3ba94ab42eae",
+      "file": "Kitchen 2.PNG",
+      "title": "Kitchen 2",
+      "category": "Living / kitchen",
+      "groups": [
+        "living"
+      ],
+      "image": "source/2 - Flat images/Kitchen 2.PNG",
+      "aliases": []
+    },
+    {
+      "id": "23faf424d4703007d7890e704fff6f9b6599bdce00b641778fadd3ae7c2dcfef",
+      "file": "Kitchen 3.PNG",
+      "title": "Kitchen 3",
+      "category": "Living / kitchen",
+      "groups": [
+        "living"
+      ],
+      "image": "source/2 - Flat images/Kitchen 3.PNG",
+      "aliases": []
+    },
+    {
+      "id": "3a1e62f97951587374e43899b7340229bc91ecc361cf7a726c651d7ccee0b62b",
+      "file": "Kitchen and livingroom 1.PNG",
+      "title": "Kitchen and livingroom 1",
+      "category": "Living / kitchen",
+      "groups": [
+        "living"
+      ],
+      "image": "source/2 - Flat images/Kitchen and livingroom 1.PNG",
+      "aliases": []
+    },
+    {
+      "id": "5bcaf97e5b8055d2df97b17fa9563f87ad157def102e2d366c953dcaada88305",
+      "file": "Kitchen and livingroom 2.PNG",
+      "title": "Kitchen and livingroom 2",
+      "category": "Living / kitchen",
+      "groups": [
+        "living"
+      ],
+      "image": "source/2 - Flat images/Kitchen and livingroom 2.PNG",
+      "aliases": []
+    },
+    {
+      "id": "fc59223dd6d5931979cfd67cd02e726deb2c7179dc080d34fbac7589264a6044",
+      "file": "Kitchen and livingroom 3.PNG",
+      "title": "Kitchen and livingroom 3",
+      "category": "Living / kitchen",
+      "groups": [
+        "living"
+      ],
+      "image": "source/2 - Flat images/Kitchen and livingroom 3.PNG",
+      "aliases": []
+    },
+    {
+      "id": "2b5a82233810a5e591db2ea9b1fada6fa3475b9872017a420e28df0f9e022c2d",
+      "file": "Kitchen and livingroom 4.PNG",
+      "title": "Kitchen and livingroom 4",
+      "category": "Living / kitchen",
+      "groups": [
+        "living"
+      ],
+      "image": "source/2 - Flat images/Kitchen and livingroom 4.PNG",
+      "aliases": []
+    },
+    {
+      "id": "376ea8adadaa0140c5e629acf228f4abc9934ab0b94622f0db875a9c207fda49",
+      "file": "Kitchen and livingroom 5.PNG",
+      "title": "Kitchen and livingroom 5",
+      "category": "Living / kitchen",
+      "groups": [
+        "living"
+      ],
+      "image": "source/2 - Flat images/Kitchen and livingroom 5.PNG",
+      "aliases": []
+    },
+    {
+      "id": "652637dea0c84ec83fe522a89a19f177b9504c9eee26f21103229927f34bc298",
+      "file": "Livingroom 1.PNG",
+      "title": "Livingroom 1",
+      "category": "Living / kitchen",
+      "groups": [
+        "living"
+      ],
+      "image": "source/2 - Flat images/Livingroom 1.PNG",
+      "aliases": []
+    },
+    {
+      "id": "84b2097204b85cbb90a7c90e4cc3ea94a7b632bd10c11932783dca11776d723b",
+      "file": "Livingroom 2.PNG",
+      "title": "Livingroom 2",
+      "category": "Living / kitchen",
+      "groups": [
+        "living"
+      ],
+      "image": "source/2 - Flat images/Livingroom 2.PNG",
+      "aliases": []
+    },
+    {
+      "id": "78dec125a2d1e5fc9c1a2afdd73344b0ace9078a068176d07d70bc7e92f0d231",
+      "file": "Livingroom 3.PNG",
+      "title": "Livingroom 3",
+      "category": "Living / kitchen",
+      "groups": [
+        "living"
+      ],
+      "image": "source/2 - Flat images/Livingroom 3.PNG",
+      "aliases": []
+    },
+    {
+      "id": "52c031fbc6e6bfdb0fd78092e936859d73469b29209cc2e9baa5cda8973f8790",
+      "file": "Pool 1.PNG",
+      "title": "Pool 1",
+      "category": "Pool",
+      "groups": [
+        "pool"
+      ],
+      "image": "source/2 - Flat images/Pool 1.PNG",
+      "aliases": []
+    },
+    {
+      "id": "e36a46256e8b8dbd7a45c7eaa96e5e2d1448228c4c56dd76c69811bb979ebb15",
+      "file": "Pool 2.PNG",
+      "title": "Pool 2",
+      "category": "Pool",
+      "groups": [
+        "pool"
+      ],
+      "image": "source/2 - Flat images/Pool 2.PNG",
+      "aliases": []
+    },
+    {
+      "id": "a4c1ee92f3b93cd5bd3ade58a436035e8e3637c65446b354a57a4f786930914d",
+      "file": "Pool 3.PNG",
+      "title": "Pool 3",
+      "category": "Pool",
+      "groups": [
+        "pool"
+      ],
+      "image": "source/2 - Flat images/Pool 3.PNG",
+      "aliases": []
+    },
+    {
+      "id": "3b67d34c6199541b151ca9b5b51f60b379e65ba4ba60c92016f2c00392d405de",
+      "file": "Powder room 1.PNG",
+      "title": "Powder room 1",
+      "category": "Powder room",
+      "groups": [
+        "bathrooms",
+        "powder"
+      ],
+      "image": "source/2 - Flat images/Powder room 1.PNG",
+      "aliases": []
+    },
+    {
+      "id": "9f74729de08f3bb46493c119b3ffb466ea934c0e6197c58690340e74270f0b2f",
+      "file": "Powder room 2.PNG",
+      "title": "Powder room 2",
+      "category": "Powder room",
+      "groups": [
+        "bathrooms",
+        "powder"
+      ],
+      "image": "source/2 - Flat images/Powder room 2.PNG",
+      "aliases": []
+    },
+    {
+      "id": "dcbdc471eb5e088f8e488675fce0a2cb7205cc00261078e4490dc6f60a8eb736",
+      "file": "Terrace 1.PNG",
+      "title": "Terrace 1",
+      "category": "Terrace",
+      "groups": [
+        "balcony"
+      ],
+      "image": "source/2 - Flat images/Terrace 1.PNG",
+      "aliases": []
+    },
+    {
+      "id": "7d744a88fed264068973cdd58f2fdea34aa29cd91804d5634e8a58efcab37f6c",
+      "file": "Terrace 2.PNG",
+      "title": "Terrace 2",
+      "category": "Terrace",
+      "groups": [
+        "balcony"
+      ],
+      "image": "source/2 - Flat images/Terrace 2.PNG",
+      "aliases": []
+    },
+    {
+      "id": "0f2c8348a885543d7cf432991423cbe240a3f8bb0be98e7040ecb274f996ed67",
+      "file": "Terrace 3.PNG",
+      "title": "Terrace 3",
+      "category": "Terrace",
+      "groups": [
+        "balcony"
+      ],
+      "image": "source/2 - Flat images/Terrace 3.PNG",
+      "aliases": []
+    },
+    {
+      "id": "08f7cf765a90fcf549a9c073a3a30907ba8928abf3a2ad0034eccdb5023fe814",
+      "file": "Terrace 4.PNG",
+      "title": "Terrace 4",
+      "category": "Terrace",
+      "groups": [
+        "balcony"
+      ],
+      "image": "source/2 - Flat images/Terrace 4.PNG",
+      "aliases": []
+    },
+    {
+      "id": "cc49daec3c715252494b9cd5841c43db3e665cbfbf7e7c49ddf00c2a9566ce83",
+      "file": "Views 1.PNG",
+      "title": "Views 1",
+      "category": "Views",
+      "groups": [
+        "views"
+      ],
+      "image": "source/2 - Flat images/Views 1.PNG",
+      "aliases": []
+    },
+    {
+      "id": "38cdabd68e1fd79fd57819217d2675697c969ac21b55f96f19ffa99d0e5c2fb4",
+      "file": "Views 2.PNG",
+      "title": "Views 2",
+      "category": "Views",
+      "groups": [
+        "views"
+      ],
+      "image": "source/2 - Flat images/Views 2.PNG",
+      "aliases": []
+    },
+    {
+      "id": "44ac88b6bcbe17501ff94e9d2a9b0f71e3293affb15735940a34fe69bb5ec9fd",
+      "file": "Views 3.PNG",
+      "title": "Views 3",
+      "category": "Views",
+      "groups": [
+        "views"
+      ],
+      "image": "source/2 - Flat images/Views 3.PNG",
+      "aliases": []
+    },
+    {
+      "id": "fea65ec158fb98d9d87b55bbbf049e95224e0d5a7e2d0b8a18093da158062678",
+      "file": "Views 4.PNG",
+      "title": "Views 4",
+      "category": "Views",
+      "groups": [
+        "views"
+      ],
+      "image": "source/2 - Flat images/Views 4.PNG",
+      "aliases": []
+    },
+    {
+      "id": "94e6ec421145235796aa98a05df21981339bb1b9ceaf154507f871eed2915ae5",
+      "file": "Views 5.PNG",
+      "title": "Views 5",
+      "category": "Views",
+      "groups": [
+        "views"
+      ],
+      "image": "source/2 - Flat images/Views 5.PNG",
+      "aliases": []
+    },
+    {
+      "id": "df65c4b9bb5aba15295c5f9a22682f39f935da883119a699ffa1145cd237110c",
+      "file": "Views 6.PNG",
+      "title": "Views 6",
+      "category": "Views",
+      "groups": [
+        "views"
+      ],
+      "image": "source/2 - Flat images/Views 6.PNG",
+      "aliases": []
+    },
+    {
+      "id": "298cb78db33f09510e4610cd8f4131f434d0057347b33251b1c9f2399925b4f3",
+      "file": "Views 7.PNG",
+      "title": "Views 7",
+      "category": "Views",
+      "groups": [
+        "views"
+      ],
+      "image": "source/2 - Flat images/Views 7.PNG",
+      "aliases": []
+    },
+    {
+      "id": "bf350010b835ba22cbf154a86b8af4fb6c948b1836c8bda7029c761d57473b51",
+      "file": "Views 8.PNG",
+      "title": "Views 8",
+      "category": "Views",
+      "groups": [
+        "views"
+      ],
+      "image": "source/2 - Flat images/Views 8.PNG",
+      "aliases": []
+    },
+    {
+      "id": "84b4cebff8bdb798c3265d4a715e4e7a24fb6dc8db2512e59a3bbead2a46a661",
+      "file": "Views 9.PNG",
+      "title": "Views 9",
+      "category": "Views",
+      "groups": [
+        "views"
+      ],
+      "image": "source/2 - Flat images/Views 9.PNG",
+      "aliases": []
+    },
+    {
+      "id": "8f3391f4074959de35265b34afa9e3cfcda83b4db22e57e7a11d54979bec21f5",
+      "file": "Views 10.PNG",
+      "title": "Views 10",
+      "category": "Views",
+      "groups": [
+        "views"
+      ],
+      "image": "source/2 - Flat images/Views 10.PNG",
+      "aliases": []
+    },
+    {
+      "id": "27933a6e13dadf7e3fe7af8312b41894897581323ed454807bda62cb98e0c54f",
+      "file": "Views 11.PNG",
+      "title": "Views 11",
+      "category": "Views",
+      "groups": [
+        "views"
+      ],
+      "image": "source/2 - Flat images/Views 11.PNG",
+      "aliases": []
+    }
+  ]
+}

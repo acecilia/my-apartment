@@ -1,0 +1,10 @@
+Edit target: MyApartment/4 - Interior design proposals/bedroom-stoa-simple-03.png
+
+Use case: precise-object-edit. Create a bedding-shopping visual option by editing ONLY THE BEDDING in the reference image. KEEP EXACTLY THE SAME 'TOWARD BEDROOM ENTRANCE' viewpoint, camera, crop and layout. Do not turn the camera toward the glass.
+
+REPLACE BEDDING ONLY WITH:
+Light cool-grey-and-chalk-white fine ticking-stripe cotton duvet cover and TWO matching striped pillowcases. Use quiet narrow stripes about3–5mm wide on the duvet, running from head to foot. Grey stripes neutral and soft, no saturated blue. Clearly readable subtle stripe pattern; no broad blocks or loud contrast. Matte cotton, relaxed but tidy.
+
+NONNEGOTIABLE BEDDING SETUP: EXACTLY TWO normal sleeping pillows in one row, one for each sleeper; no cushions, bolsters, extra pillows or shams behind them. ONE Nordic duvet, with its cover falling LOOSELY over the FOOT and BOTH free long sides. All edges untucked: do not push the sheet/duvet under the mattress, no tight hospital corners. No throw, runner, additional blanket, decorative folded layers or accessories on bed. Keep natural duvet thickness and a believable loose hanging hem, not a bed skirt.
+
+LOCK EVERYTHING OUTSIDE BEDDING to the reference: same walnut Woodendot Stoa base and thin headboard; bed shifted toward glass, same two unrotated walnut nightstands and pale/black lamps; same beige relief art; exact existing white wardrobes, entry alcove and two timber doors; beige tiled floor, white shell, AC/ceiling, black glazing edge. Same black height-adjustable desk, laptop and black mesh office chair at image right, facing its wall. Do not move, resize, add or remove furniture, walls, lights or decor. Preserve warm daylight and the existing exposure/white balance so the four bedding options are comparable. No staged props, people, text, labels, watermark or collage. One photorealistic wide room image, same aspect ratio as input.

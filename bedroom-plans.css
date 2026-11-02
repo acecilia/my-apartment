@@ -1,0 +1,23 @@
+.bedroom-plans{margin:0 0 36px;padding:22px 0 28px;border-bottom:1px solid var(--line)}
+.bedroom-plans h2{font-size:28px;letter-spacing:-.03em;margin:0 0 8px}
+.bedroom-plans .plan-intro{color:#6a7b71;font-size:13px;max-width:980px;margin:0 0 18px}
+.bed-plan-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.bed-plan{margin:0;border:1px solid #d8e1d6;border-radius:12px;background:#fff;overflow:hidden}
+.bed-plan header{padding:14px 16px 0;display:flex;align-items:baseline;justify-content:space-between;gap:8px}
+.bed-plan h3{font-size:21px;letter-spacing:-.03em;margin:0}.bed-plan header span{font-size:10px;color:#7b8b7f}
+.bed-plan>a{display:block}.bed-plan img{display:block;width:100%;height:auto}
+.bed-plan figcaption{border-top:1px solid #edf0eb;padding:12px 16px;display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.bed-plan figcaption span{font-size:10px;color:#7b8a7e}.bed-plan figcaption strong{display:block;font-size:19px;color:#345d49;font-weight:650}
+.bed-plan figcaption small{grid-column:1/-1;color:#7b8a7e;font-size:10px}
+.bed-fit-answer{background:#e6eee3;border:1px solid #d1dfcb;padding:16px 18px;border-radius:10px;margin:18px 0;color:#34513d;font-size:13px;line-height:1.65}
+.bed-fit-answer p{margin:0}.bed-fit-answer p+p{margin-top:8px}
+.bed-fit-table{width:100%;border-collapse:collapse;background:#fff;font-size:12px}
+.bed-fit-table caption{text-align:left;font-size:12px;color:#73836f;padding:0 0 10px}
+.bed-fit-table th,.bed-fit-table td{text-align:left;padding:10px 12px;border-bottom:1px solid #e2e8dd}
+.bed-fit-table thead{color:#4c6751}.bed-fit-table tbody th{font-weight:500;color:#71826d}
+.bed-plan-sources{font-size:11px;color:#7b8977;margin-top:12px}.bed-plan-sources a{color:#345d49}
+@media(max-width:1100px){.bed-plan-grid{grid-template-columns:1fr;max-width:720px;margin:auto}.bed-plan header{padding-top:16px}.bed-plan img{max-height:none}.bed-fit-table{font-size:11px}.bed-fit-table th,.bed-fit-table td{padding:9px 6px}}
+
+.plan-conflict,.bed-plan figcaption .plan-conflict{color:#a5513e}.bed-fit-table .plan-conflict td{font-weight:650}
+
+.bed-fit-scroll{overflow-x:auto}.bed-fit-table{min-width:620px}.plan-clear{color:#345d49}.bed-plan header{flex-wrap:wrap}.bed-plan header span{white-space:nowrap}

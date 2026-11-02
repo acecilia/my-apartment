@@ -1,0 +1,513 @@
+{
+  "schema_version": 1,
+  "updated_local": "2026-11-02 Asia/Dubai",
+  "instructions": "Append new styles and revisions while preserving source archives. Room options must show a standing TV. Never expose excluded_room_images in tiles, full-width selectors or comparison views.",
+  "entries": [
+    {
+      "id": "kensington",
+      "name": "Kensington",
+      "kind": "room",
+      "area": "Living room",
+      "sofa": "White textured fabric",
+      "colours": [
+        "white"
+      ],
+      "description": "Light sculptural forms, glass dining, natural wood and soft white upholstery.",
+      "variants": [
+        {
+          "label": "01 \u00b7 First draft",
+          "image": "source/4 - Interior design proposals/livingroom-kensington-contemporary-01.png",
+          "prompt": "prompts/six-styles-v01-kensington.txt",
+          "tv_mounting": "standing"
+        }
+      ],
+      "review": "outputs/living-room-styles-v01/review.md",
+      "default_variant": "livingroom-kensington-contemporary-01.png"
+    },
+    {
+      "id": "kensington-large-sofa",
+      "name": "Kensington + larger sofa",
+      "kind": "room",
+      "area": "Living room",
+      "sofa": "White textured L / chaise sofa",
+      "colours": [
+        "white"
+      ],
+      "description": "Kensington Contemporary first draft with a bigger white sofa. Compare a backed L-shaped corner return with an open chaise-longue extension. Return at terrace end to retain the dining zone; proposed furniture dimensions remain unselected.",
+      "variants": [
+        {
+          "label": "01 \u00b7 L-shaped sofa",
+          "image": "source/4 - Interior design proposals/livingroom-kensington-large-sofa-01.png",
+          "prompt": "prompts/kensington-large-sofa-01.txt",
+          "tv_mounting": "standing"
+        },
+        {
+          "label": "02 \u00b7 Chaise longue",
+          "image": "source/4 - Interior design proposals/livingroom-kensington-large-sofa-02.png",
+          "prompt": "prompts/kensington-large-sofa-02.txt",
+          "tv_mounting": "standing"
+        }
+      ],
+      "review": "outputs/kensington-large-sofa/review.md",
+      "default_variant": "livingroom-kensington-large-sofa-01.png"
+    },
+    {
+      "id": "kensington-mizoen",
+      "name": "Kensington + Mizoen table",
+      "kind": "room",
+      "area": "Living room",
+      "sofa": "White textured fabric",
+      "colours": [
+        "white"
+      ],
+      "description": "Kensington Contemporary first draft with the Mizoen-inspired elongated natural-wood table, softly rounded edges and corners. Separate choices: four upholstered chairs only, or two matching benches only.",
+      "variants": [
+        {
+          "label": "03 \u00b7 Chairs only",
+          "image": "source/4 - Interior design proposals/livingroom-kensington-mizoen-03.png",
+          "prompt": "prompts/kensington-mizoen-03.txt",
+          "tv_mounting": "standing"
+        },
+        {
+          "label": "04 \u00b7 Benches only",
+          "image": "source/4 - Interior design proposals/livingroom-kensington-mizoen-04.png",
+          "prompt": "prompts/kensington-mizoen-04.txt",
+          "tv_mounting": "standing"
+        }
+      ],
+      "review": "outputs/kensington-mizoen/review.md",
+      "default_variant": "livingroom-kensington-mizoen-03.png"
+    },
+    {
+      "id": "japandi",
+      "name": "Japandi Minimal",
+      "kind": "room",
+      "area": "Living room",
+      "sofa": "Warm grey linen",
+      "colours": [
+        "grey"
+      ],
+      "description": "Low horizontal lines, ash wood, restrained black accents and a slatted console.",
+      "variants": [
+        {
+          "label": "01 \u00b7 First draft",
+          "image": "source/4 - Interior design proposals/livingroom-japandi-01.png",
+          "prompt": "prompts/six-styles-v01-japandi.txt",
+          "tv_mounting": "standing"
+        },
+        {
+          "label": "02 \u00b7 Reviewed",
+          "image": "source/4 - Interior design proposals/livingroom-japandi-02.png",
+          "prompt": "prompts/six-styles-v01-japandi-review.txt",
+          "tv_mounting": "standing"
+        }
+      ],
+      "review": "outputs/living-room-styles-v01/review.md",
+      "default_variant": "livingroom-japandi-02.png"
+    },
+    {
+      "id": "italian",
+      "name": "Italian Sculptural",
+      "kind": "room",
+      "area": "Living room",
+      "sofa": "Charcoal textured fabric",
+      "colours": [
+        "grey"
+      ],
+      "description": "Curved charcoal seating, travertine dining, bronze and sculptural stone.",
+      "variants": [
+        {
+          "label": "01 \u00b7 First draft",
+          "image": "source/4 - Interior design proposals/livingroom-italian-contemporary-01.png",
+          "prompt": "prompts/six-styles-v01-italian.txt",
+          "tv_mounting": "standing"
+        }
+      ],
+      "review": "outputs/living-room-styles-v01/review.md",
+      "default_variant": "livingroom-italian-contemporary-01.png"
+    },
+    {
+      "id": "scandi",
+      "name": "Scandinavian Graphic",
+      "kind": "room",
+      "area": "Living room",
+      "sofa": "Light cool-grey wool",
+      "colours": [
+        "grey"
+      ],
+      "description": "Furniture lifted on slender legs, pale ash and crisp black graphic details.",
+      "variants": [
+        {
+          "label": "01 \u00b7 First draft",
+          "image": "source/4 - Interior design proposals/livingroom-scandinavian-01.png",
+          "prompt": "prompts/six-styles-v01-scandi.txt",
+          "tv_mounting": "standing"
+        }
+      ],
+      "review": "outputs/living-room-styles-v01/review.md",
+      "default_variant": "livingroom-scandinavian-01.png"
+    },
+    {
+      "id": "tropical",
+      "name": "Tropical Modern",
+      "kind": "room",
+      "area": "Living room",
+      "sofa": "Chalk-white linen",
+      "colours": [
+        "white"
+      ],
+      "description": "White linen, teak, restrained woven panels and bold green leaves.",
+      "variants": [
+        {
+          "label": "01 \u00b7 First draft",
+          "image": "source/4 - Interior design proposals/livingroom-tropical-modern-01.png",
+          "prompt": "prompts/six-styles-v01-tropical.txt",
+          "tv_mounting": "standing"
+        }
+      ],
+      "review": "outputs/living-room-styles-v01/review.md",
+      "default_variant": "livingroom-tropical-modern-01.png"
+    },
+    {
+      "id": "modernist",
+      "name": "Modernist Gallery",
+      "kind": "room",
+      "area": "Living room",
+      "sofa": "Graphite-grey leather",
+      "colours": [
+        "grey"
+      ],
+      "description": "Cubic seating, tubular chrome, smoked glass and precise dark lines.",
+      "variants": [
+        {
+          "label": "01 \u00b7 First draft",
+          "image": "source/4 - Interior design proposals/livingroom-modernist-01.png",
+          "prompt": "prompts/six-styles-v01-modernist.txt",
+          "tv_mounting": "standing"
+        }
+      ],
+      "review": "outputs/living-room-styles-v01/review.md",
+      "default_variant": "livingroom-modernist-01.png"
+    },
+    {
+      "id": "walnut-mushroom",
+      "name": "Walnut & Mushroom",
+      "kind": "room",
+      "area": "Living room",
+      "sofa": "Mushroom / taupe fabric",
+      "colours": [
+        "mushroom"
+      ],
+      "description": "Earlier preferred neutral direction, with its sofa, console, curtain and plant revisions preserved. Owner subsequently requested more contemporary and more varied options.",
+      "variants": [
+        {
+          "label": "02 \u00b7 Standing TV",
+          "image": "source/4 - Interior design proposals/livingroom-walnut-mushroom-02.png",
+          "prompt": "prompts/living-room-v02-a.txt",
+          "tv_mounting": "standing"
+        },
+        {
+          "label": "05 \u00b7 Natural walnut console",
+          "image": "source/4 - Interior design proposals/livingroom-walnut-mushroom-05.png",
+          "prompt": "prompts/living-room-v04-natural-walnut-console.txt",
+          "tv_mounting": "standing"
+        },
+        {
+          "label": "06 \u00b7 Strong green plants",
+          "image": "source/4 - Interior design proposals/livingroom-walnut-mushroom-06.png",
+          "prompt": "prompts/living-room-v05-green-plants.txt",
+          "tv_mounting": "standing"
+        }
+      ],
+      "review": "outputs/living-room-v01/review.md",
+      "default_variant": "livingroom-walnut-mushroom-06.png"
+    },
+    {
+      "id": "mineral-calm",
+      "name": "Mineral Calm",
+      "kind": "room",
+      "area": "Living room",
+      "sofa": "Warm grey fabric",
+      "colours": [
+        "grey"
+      ],
+      "description": "Warm-grey upholstery, stone dining and walnut nesting tables.",
+      "variants": [
+        {
+          "label": "02 \u00b7 Standing TV",
+          "image": "source/4 - Interior design proposals/livingroom-mineral-calm-02.png",
+          "prompt": "prompts/living-room-v02-b.txt",
+          "tv_mounting": "standing"
+        }
+      ],
+      "review": "outputs/living-room-v01/review.md",
+      "default_variant": "livingroom-mineral-calm-02.png"
+    },
+    {
+      "id": "deep-walnut",
+      "name": "Deep Walnut",
+      "kind": "room",
+      "area": "Living room",
+      "sofa": "Deep taupe fabric",
+      "colours": [
+        "mushroom"
+      ],
+      "description": "Deeper upholstery with richer walnut dining, console and coffee-table tones.",
+      "variants": [
+        {
+          "label": "02 \u00b7 Standing TV",
+          "image": "source/4 - Interior design proposals/livingroom-deep-walnut-02.png",
+          "prompt": "prompts/living-room-v02-c.txt",
+          "tv_mounting": "standing"
+        }
+      ],
+      "review": "outputs/living-room-v01/review.md",
+      "default_variant": "livingroom-deep-walnut-02.png"
+    },
+    {
+      "id": "linen-oak",
+      "name": "Linen & Oak",
+      "kind": "material",
+      "area": "Material palette",
+      "sofa": "Initial material study",
+      "colours": [
+        "white"
+      ],
+      "description": "Initial light linen and pale-oak material direction. Displayed as its panel from the original three-way comparison board; open to see the full board.",
+      "crop_panel": 0,
+      "variants": [
+        {
+          "label": "Original material board",
+          "image": "outputs/style-study-v01/material-comparison.png",
+          "note": "Material direction only; no apartment geometry or selected products."
+        }
+      ],
+      "review": "outputs/style-study-v01/review.md"
+    },
+    {
+      "id": "sand-stone",
+      "name": "Sand & Stone",
+      "kind": "material",
+      "area": "Material palette",
+      "sofa": "Initial material study",
+      "colours": [
+        "mushroom"
+      ],
+      "description": "Initial oatmeal upholstery and pale-stone material direction. Displayed as its panel from the original three-way comparison board; open to see the full board.",
+      "crop_panel": 1,
+      "variants": [
+        {
+          "label": "Original material board",
+          "image": "outputs/style-study-v01/material-comparison.png",
+          "note": "Material direction only; no apartment geometry or selected products."
+        }
+      ],
+      "review": "outputs/style-study-v01/review.md"
+    },
+    {
+      "id": "cream-walnut",
+      "name": "Cream & Walnut",
+      "kind": "material",
+      "area": "Material palette",
+      "sofa": "Initial material study",
+      "colours": [
+        "white"
+      ],
+      "description": "Initial cream upholstery with walnut contrast. Displayed as its panel from the original three-way comparison board; open to see the full board.",
+      "crop_panel": 2,
+      "variants": [
+        {
+          "label": "Original material board",
+          "image": "outputs/style-study-v01/material-comparison.png",
+          "note": "Material direction only; no apartment geometry or selected products."
+        }
+      ],
+      "review": "outputs/style-study-v01/review.md"
+    },
+    {
+      "id": "walnut-mushroom-materials",
+      "name": "Walnut & Mushroom",
+      "kind": "material",
+      "area": "Material palette",
+      "sofa": "Mushroom / taupe fabric",
+      "colours": [
+        "mushroom"
+      ],
+      "description": "Earlier walnut and mushroom palette board; material study only, not an apartment view.",
+      "variants": [
+        {
+          "label": "Material palette \u00b7 Earlier study",
+          "image": "outputs/style-study-v02/walnut-mushroom.png",
+          "prompt": "prompts/style-study-v02.txt",
+          "note": "Material study only; no room dimensions depicted."
+        }
+      ],
+      "review": "outputs/style-study-v02/review.md"
+    },
+    {
+      "id": "stoa-walnut",
+      "name": "Stoa walnut & black workspace",
+      "kind": "room",
+      "area": "Bedroom",
+      "sofa": "Walnut Decor \u00b7 white linen \u00b7 black workspace",
+      "colours": [
+        "white",
+        "grey"
+      ],
+      "description": "Selected 1.80 \u00d7 2.00 m bed shifted toward the glass. Woodendot Stoa Walnut Decor base (official 1.83 \u00d7 2.04 \u00d7 0.32 m), matching freestanding walnut nightstands, black height-adjustable desk on the left and black office chair facing that wall. Warm white bedding and restrained textured accents. The thin walnut headboard and art are additional styling proposals, not included with the linked bed base. Generated perspective is illustrative: exact clearances remain in the measured plans.",
+      "variants": [
+        {
+          "label": "01 \u00b7 Original placement",
+          "image": "source/4 - Interior design proposals/bedroom-stoa-walnut-01.png",
+          "prompt": "prompts/bedroom-stoa-walnut-01.txt",
+          "note": "Original image retained as an option at owner request. Bed placement reads more centred than the chosen measured layout."
+        },
+        {
+          "label": "02 \u00b7 Closer to glass",
+          "image": "source/4 - Interior design proposals/bedroom-stoa-walnut-02.png",
+          "prompt": "prompts/bedroom-stoa-walnut-02.txt",
+          "note": "Additional option with bed shifted toward the glass and a visibly wider wardrobe-side aisle. Generated perspective remains approximate; measured plans govern exact fit."
+        },
+        {
+          "label": "03 \u00b7 Toward bedroom entrance",
+          "image": "source/4 - Interior design proposals/bedroom-stoa-walnut-03.png",
+          "prompt": "prompts/bedroom-stoa-walnut-03.txt",
+          "note": "Reverse view of the closer-to-glass layout, using Bedroom wardrobes 1 and 2 for the original wardrobes and entrance alcove. Existing options remain available. Generated perspective; consult measured plans for exact fit."
+        }
+      ],
+      "review": "outputs/bedroom-stoa-v01/review.md",
+      "default_variant": "bedroom-stoa-walnut-01.png"
+    },
+    {
+      "id": "stoa-simple-bedding",
+      "name": "Stoa \u00b7 simple bedding",
+      "kind": "room",
+      "area": "Bedroom",
+      "sofa": "Two pillows \u00b7 plain white duvet",
+      "colours": [
+        "white"
+      ],
+      "description": "Same Stoa walnut bedroom and black workspace with simple bedding: exactly two sleeping pillows, one per sleeper, and one plain white Nordic duvet hanging loosely over the three free edges, untucked. No throw, decorative cushions or extra pillows. Three original viewpoints/placements preserved; closer-to-glass view selected by default. Earlier Stoa style remains unchanged.",
+      "variants": [
+        {
+          "label": "01 \u00b7 Original placement",
+          "image": "source/4 - Interior design proposals/bedroom-stoa-simple-01.png",
+          "prompt": "prompts/bedroom-stoa-simple-01.txt",
+          "note": "Bedding-only generated edit of the corresponding Stoa walnut view; measured plans remain authoritative for clearances."
+        },
+        {
+          "label": "02 \u00b7 Closer to glass",
+          "image": "source/4 - Interior design proposals/bedroom-stoa-simple-02.png",
+          "prompt": "prompts/bedroom-stoa-simple-02.txt",
+          "note": "Bedding-only generated edit of the corresponding Stoa walnut view; measured plans remain authoritative for clearances."
+        },
+        {
+          "label": "03 \u00b7 Toward bedroom entrance",
+          "image": "source/4 - Interior design proposals/bedroom-stoa-simple-03.png",
+          "prompt": "prompts/bedroom-stoa-simple-03.txt",
+          "note": "Bedding-only generated edit of the corresponding Stoa walnut view; measured plans remain authoritative for clearances."
+        }
+      ],
+      "review": "outputs/bedroom-stoa-simple-v01/review.md",
+      "default_variant": "bedroom-stoa-simple-02.png"
+    },
+    {
+      "id": "bedding-white-piping",
+      "name": "Crisp white \u00b7 charcoal piping",
+      "kind": "room",
+      "area": "Bedroom",
+      "sofa": "Cotton percale look",
+      "colours": [
+        "white"
+      ],
+      "description": "Crisp white \u00b7 charcoal piping bedding direction on the same Stoa bedroom, viewed toward the entrance only. Exactly two sleeping pillows and one loose untucked duvet, with no throw or decorative cushions. Cotton percale look is a visual direction, not a selected textile product. Furniture and viewpoint retained from the simple-bedding source.",
+      "variants": [
+        {
+          "label": "01 \u00b7 Toward bedroom entrance",
+          "image": "source/4 - Interior design proposals/bedroom-bedding-white-piping-01.png",
+          "prompt": "prompts/bedroom-bedding-white-piping-01.txt",
+          "note": "Bedding colour/texture study. Compare with the other entrance-facing options; exact fabric and duvet sizing remain to select."
+        }
+      ],
+      "default_variant": "bedroom-bedding-white-piping-01.png",
+      "review": "outputs/bedroom-bedding-explorer-v01/review.md"
+    },
+    {
+      "id": "bedding-natural-flax",
+      "name": "Natural flax linen",
+      "kind": "room",
+      "area": "Bedroom",
+      "sofa": "Washed linen look",
+      "colours": [
+        "mushroom"
+      ],
+      "description": "Natural flax linen bedding direction on the same Stoa bedroom, viewed toward the entrance only. Exactly two sleeping pillows and one loose untucked duvet, with no throw or decorative cushions. Washed linen look is a visual direction, not a selected textile product. Furniture and viewpoint retained from the simple-bedding source.",
+      "variants": [
+        {
+          "label": "01 \u00b7 Toward bedroom entrance",
+          "image": "source/4 - Interior design proposals/bedroom-bedding-natural-flax-01.png",
+          "prompt": "prompts/bedroom-bedding-natural-flax-01.txt",
+          "note": "Bedding colour/texture study. Compare with the other entrance-facing options; exact fabric and duvet sizing remain to select."
+        }
+      ],
+      "default_variant": "bedroom-bedding-natural-flax-01.png",
+      "review": "outputs/bedroom-bedding-explorer-v01/review.md"
+    },
+    {
+      "id": "bedding-mushroom-waffle",
+      "name": "Mushroom \u00b7 subtle waffle",
+      "kind": "room",
+      "area": "Bedroom",
+      "sofa": "Textured cotton look",
+      "colours": [
+        "mushroom"
+      ],
+      "description": "Mushroom \u00b7 subtle waffle bedding direction on the same Stoa bedroom, viewed toward the entrance only. Exactly two sleeping pillows and one loose untucked duvet, with no throw or decorative cushions. Textured cotton look is a visual direction, not a selected textile product. Furniture and viewpoint retained from the simple-bedding source.",
+      "variants": [
+        {
+          "label": "01 \u00b7 Toward bedroom entrance",
+          "image": "source/4 - Interior design proposals/bedroom-bedding-mushroom-waffle-01.png",
+          "prompt": "prompts/bedroom-bedding-mushroom-waffle-01.txt",
+          "note": "Bedding colour/texture study. Compare with the other entrance-facing options; exact fabric and duvet sizing remain to select."
+        }
+      ],
+      "default_variant": "bedroom-bedding-mushroom-waffle-01.png",
+      "review": "outputs/bedroom-bedding-explorer-v01/review.md"
+    },
+    {
+      "id": "bedding-grey-ticking",
+      "name": "Soft grey \u00b7 fine stripes",
+      "kind": "room",
+      "area": "Bedroom",
+      "sofa": "Cotton ticking-stripe look",
+      "colours": [
+        "grey"
+      ],
+      "description": "Soft grey \u00b7 fine stripes bedding direction on the same Stoa bedroom, viewed toward the entrance only. Exactly two sleeping pillows and one loose untucked duvet, with no throw or decorative cushions. Cotton ticking-stripe look is a visual direction, not a selected textile product. Furniture and viewpoint retained from the simple-bedding source.",
+      "variants": [
+        {
+          "label": "01 \u00b7 Toward bedroom entrance",
+          "image": "source/4 - Interior design proposals/bedroom-bedding-grey-ticking-01.png",
+          "prompt": "prompts/bedroom-bedding-grey-ticking-01.txt",
+          "note": "Bedding colour/texture study. Compare with the other entrance-facing options; exact fabric and duvet sizing remain to select."
+        }
+      ],
+      "default_variant": "bedroom-bedding-grey-ticking-01.png",
+      "review": "outputs/bedroom-bedding-explorer-v01/review.md"
+    }
+  ],
+  "excluded_room_images": [
+    "source/4 - Interior design proposals/livingroom-deep-walnut-01.png",
+    "source/4 - Interior design proposals/livingroom-italian-contemporary-02.png",
+    "source/4 - Interior design proposals/livingroom-kensington-contemporary-02.png",
+    "source/4 - Interior design proposals/livingroom-kensington-mizoen-01.png",
+    "source/4 - Interior design proposals/livingroom-kensington-mizoen-02.png",
+    "source/4 - Interior design proposals/livingroom-mineral-calm-01.png",
+    "source/4 - Interior design proposals/livingroom-modernist-02.png",
+    "source/4 - Interior design proposals/livingroom-scandinavian-02.png",
+    "source/4 - Interior design proposals/livingroom-tropical-modern-02.png",
+    "source/4 - Interior design proposals/livingroom-walnut-mushroom-01.png",
+    "source/4 - Interior design proposals/livingroom-walnut-mushroom-03.png",
+    "source/4 - Interior design proposals/livingroom-walnut-mushroom-04.png"
+  ]
+}

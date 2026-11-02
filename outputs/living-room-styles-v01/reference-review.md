@@ -1,0 +1,7 @@
+# Style reference reading · 25 October 2026
+
+Kensington Waters remains the owner's main style reference. Its light grey/white textured upholstery, contrast with the dark glazing, clear glass dining top, simple wood console on cylindrical supports, white pebble-shaped and small wooden coffee tables, pale rug and geometric relief art make a lighter and more contemporary composition than the earlier uniformly brown generated proposals. This is an interpretation of the photos, not approval of every photographed item. The reference's floor, shell and kitchen are not this apartment's.
+
+Five Casares photographs IMG_2993–IMG_2997 were reviewed. They show slatted lighter-wood cabinetry standing on feet, an open middle section on the TV unit, natural weaving, green plants, white sheers, slim black lighting and varied wood tables. The owner explicitly agreed to explore its slatted TV-console direction, while preferring Kensington overall. Do not import Casares's chaise position, round table size, white sofa, orange throw, wall fixtures or plan geometry automatically. White/grey sofas are now separately authorized for the six-style study.
+
+The six studies deliberately change furniture shapes and materials: Kensington Contemporary; Japandi Minimal; Italian Sculptural; Scandinavian Graphic; Tropical Modern; Modernist Gallery. They explore two white sofas and four shades/materials of grey. No style, product or sofa colour is selected yet.
