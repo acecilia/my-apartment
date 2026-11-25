@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head><script src="portable-data.js?v=9b72c8ca6b"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Full apartment · My Apartment</title>
+  <link rel="stylesheet" href="styles.css?v=f539e3abb2">
+  <link rel="stylesheet" href="style-library.css?v=ce25258646">
+  <link rel="stylesheet" href="full-apartment.css?v=ad0bcc70bd">
+  <script defer src="navigation.js?v=2cf638bc96"></script>
+  <script src="full-apartment.js?v=b5a283f4cd" defer></script>
+</head>
+<body>
+  <apartment-navigation></apartment-navigation>
+  <main class="library-main full-apartment">
+    <section class="library-heading" aria-labelledby="full-apartment-heading">
+      <div>
+        <h1 id="full-apartment-heading">Full apartment</h1>
+        <p>Centred view from above the entrance, looking toward the terrace.</p>
+      </div>
+      <a class="before-button" href="index.html#plan">Floor plan ↗</a>
+    </section>
+    <div class="apartment-views">
+      <div class="apartment-view-options" role="group" aria-label="Furniture in the image">
+        <label><input type="checkbox" value="bed"> Scepter Oak bed</label>
+        <label><input type="checkbox" value="desk"> Black desk</label>
+        <label><input type="checkbox" value="sofa"> L-shaped sofa</label>
+        <label><input type="checkbox" value="rug"> Woven rug</label>
+        <label><input type="checkbox" value="table"> Glass dining table</label>
+        <label><input type="checkbox" value="console"> TV console</label>
+        <label title="The TV stands on the console"><input type="checkbox" value="tv"> Standing TV</label>
+      </div>
+      <figure class="apartment-cutaway" id="empty-apartment">
+        <a id="open-apartment-image" class="apartment-image" href="source/4 - Interior design proposals/full-apartment-empty-03.png" target="_blank" rel="noopener" aria-label="Open full-size apartment image">
+          <img loading="lazy" id="apartment-base-image" src="source/4 - Interior design proposals/full-apartment-empty-03.png" width="1408" height="1117" alt="Centred cutaway of the empty apartment with fitted kitchen and wardrobes.">
+          <canvas id="apartment-furniture-canvas" width="1408" height="1117" role="img" hidden></canvas>
+        </a>
+        <figcaption>
+          <div>
+            <h2 id="apartment-view-title">Empty apartment</h2>
+            <p id="apartment-view-details">The fridge, kitchen cabinets and bedroom wardrobe share the walls’ 1.12 m cut line.</p>
+          </div>
+          <a id="save-apartment-image" href="source/4 - Interior design proposals/full-apartment-empty-03.png" download="full-apartment-empty-03.png">Save image ↗</a>
+        </figcaption>
+      </figure>
+      <template id="furniture-layers">
+        <img loading="lazy" data-furniture="rug" data-label="Woven rug" data-size="2.00 × 2.80 m rug" data-bounds=".250 .298 .425 .518" src="source/4 - Interior design proposals/full-apartment-woven-rug-01.png" alt="">
+        <img loading="lazy" data-furniture="bed" data-label="Scepter Oak bed" data-size="2.31 × 2.30 m frame" data-bounds=".603 .210 .820 .448" src="source/4 - Interior design proposals/full-apartment-scepter-02.png" alt="">
+        <img loading="lazy" data-furniture="desk" data-label="Black desk" data-size="1.00 × 0.60 m desk" data-bounds=".500 .275 .587 .421" src="source/4 - Interior design proposals/full-apartment-black-desk-01.png" alt="">
+        <img loading="lazy" data-furniture="sofa" data-label="L-shaped sofa" data-size="3.00 × 2.00 m sofa, 0.12 m from glazing" data-bounds=".188 .221 .382 .524" data-target-bounds="0.19867 0.21052 0.37965 0.46727" data-outline="0.24096,0.22591 0.34883,0.22591 0.36535,0.24372 0.36632,0.29940 0.35951,0.31053 0.30704,0.31499 0.29635,0.43858 0.29052,0.45083 0.22347,0.45306 0.21181,0.43413 0.20889,0.41186 0.23707,0.23816" src="source/4 - Interior design proposals/full-apartment-l-sofa-02.png" alt="">
+        <img loading="lazy" data-furniture="table" data-label="Glass dining table" data-size="1.60 × 0.85 m dining table" data-bounds=".247 .480 .419 .616" data-target-bounds=".258 .490 .411 .617" src="source/4 - Interior design proposals/full-apartment-glass-table-01.png" alt="">
+        <img loading="lazy" data-furniture="console" data-label="TV console" data-size="2.10 × 0.40 m oak console" data-bounds=".437 .261 .501 .452" data-target-bounds=".445 .265 .499 .443" src="source/4 - Interior design proposals/full-apartment-oak-console-01.png" alt="">
+        <img loading="lazy" data-furniture="tv" data-label="Standing TV" data-size="55-inch TV on a tabletop stand" data-bounds=".747 .250 .783 .393" data-target-bounds=".45429 .250 .49029 .393" data-outline="0.46979,0.26413 0.47396,0.26413 0.48333,0.33246 0.48125,0.35480 0.48021,0.37714 0.46458,0.37976 0.46042,0.33640 0.46667,0.32983 0.46250,0.30355" data-dark-cutout src="source/4 - Interior design proposals/full-apartment-standing-tv-01.png" alt="">
+      </template>
+    </div>
+    <dl class="apartment-measurements" aria-label="Key interior measurements in metres">
+      <div><dt>Living area and kitchen · width × total depth</dt><dd>4.17 × 8.77 m</dd></div>
+      <div><dt>Bedroom · width × depth to wardrobe fronts</dt><dd>4.17 × 3.62 m</dd></div>
+      <div><dt>Kitchen peninsula</dt><dd>2.75 m long</dd></div>
+    </dl>
+  </main>
+</body>
+</html>

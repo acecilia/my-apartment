@@ -1,12 +1,10 @@
-MY APARTMENT — PORTABLE WEBSITE
+MY APARTMENT — WEBSITE
 
-Open index.html in Chrome, Edge, Firefox or Safari.
-The complete site works locally without a server or internet.
-All current tabs, including Living room, Bedroom, the 3D viewer, photographs, design comparisons and material boards are included.
-For the 3D model directly, open model.html.
+This folder contains the static site for GitHub Pages.
 
-TO SHARE
-Copy this entire unzipped folder. Open index.html inside the copied folder.
-Keep the HTML files and their accompanying folders together.
-
-This is a snapshot of the website when copied; later live-project edits do not automatically change this copy.
+- index.html: Apartment overview and floor plan
+- full-apartment.html: 3D images and furniture switches
+- model.html: Interactive 3D model
+- style-explorer.html: Living room proposals
+- bedroom.html: Bedroom proposals and furniture fit
+- materials.html: Material boards

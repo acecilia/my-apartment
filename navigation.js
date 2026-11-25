@@ -1,6 +1,7 @@
 (()=>{
 const links = [
   ['project', 'Apartment', 'index.html#overview'],
+  ['full-apartment', '3D images', 'full-apartment.html'],
   ['model', '3D model', 'model.html'],
   ['design', 'Living room', 'style-explorer.html'],
   ['bedroom', 'Bedroom', 'bedroom.html'],

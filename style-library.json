@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_local": "2026-11-02 Asia/Dubai",
+  "updated_local": "2026-11-07 Asia/Dubai",
   "instructions": "Append new styles and revisions while preserving source archives. Room options must show a standing TV. Never expose excluded_room_images in tiles, full-width selectors or comparison views.",
   "entries": [
     {
@@ -15,7 +15,7 @@
       "description": "Light sculptural forms, glass dining, natural wood and soft white upholstery.",
       "variants": [
         {
-          "label": "01 \u00b7 First draft",
+          "label": "01 · First draft",
           "image": "source/4 - Interior design proposals/livingroom-kensington-contemporary-01.png",
           "prompt": "prompts/six-styles-v01-kensington.txt",
           "tv_mounting": "standing"
@@ -36,13 +36,13 @@
       "description": "Kensington Contemporary first draft with a bigger white sofa. Compare a backed L-shaped corner return with an open chaise-longue extension. Return at terrace end to retain the dining zone; proposed furniture dimensions remain unselected.",
       "variants": [
         {
-          "label": "01 \u00b7 L-shaped sofa",
+          "label": "01 · L-shaped sofa",
           "image": "source/4 - Interior design proposals/livingroom-kensington-large-sofa-01.png",
           "prompt": "prompts/kensington-large-sofa-01.txt",
           "tv_mounting": "standing"
         },
         {
-          "label": "02 \u00b7 Chaise longue",
+          "label": "02 · Chaise longue",
           "image": "source/4 - Interior design proposals/livingroom-kensington-large-sofa-02.png",
           "prompt": "prompts/kensington-large-sofa-02.txt",
           "tv_mounting": "standing"
@@ -63,13 +63,13 @@
       "description": "Kensington Contemporary first draft with the Mizoen-inspired elongated natural-wood table, softly rounded edges and corners. Separate choices: four upholstered chairs only, or two matching benches only.",
       "variants": [
         {
-          "label": "03 \u00b7 Chairs only",
+          "label": "03 · Chairs only",
           "image": "source/4 - Interior design proposals/livingroom-kensington-mizoen-03.png",
           "prompt": "prompts/kensington-mizoen-03.txt",
           "tv_mounting": "standing"
         },
         {
-          "label": "04 \u00b7 Benches only",
+          "label": "04 · Benches only",
           "image": "source/4 - Interior design proposals/livingroom-kensington-mizoen-04.png",
           "prompt": "prompts/kensington-mizoen-04.txt",
           "tv_mounting": "standing"
@@ -90,13 +90,13 @@
       "description": "Low horizontal lines, ash wood, restrained black accents and a slatted console.",
       "variants": [
         {
-          "label": "01 \u00b7 First draft",
+          "label": "01 · First draft",
           "image": "source/4 - Interior design proposals/livingroom-japandi-01.png",
           "prompt": "prompts/six-styles-v01-japandi.txt",
           "tv_mounting": "standing"
         },
         {
-          "label": "02 \u00b7 Reviewed",
+          "label": "02 · Reviewed",
           "image": "source/4 - Interior design proposals/livingroom-japandi-02.png",
           "prompt": "prompts/six-styles-v01-japandi-review.txt",
           "tv_mounting": "standing"
@@ -117,7 +117,7 @@
       "description": "Curved charcoal seating, travertine dining, bronze and sculptural stone.",
       "variants": [
         {
-          "label": "01 \u00b7 First draft",
+          "label": "01 · First draft",
           "image": "source/4 - Interior design proposals/livingroom-italian-contemporary-01.png",
           "prompt": "prompts/six-styles-v01-italian.txt",
           "tv_mounting": "standing"
@@ -138,7 +138,7 @@
       "description": "Furniture lifted on slender legs, pale ash and crisp black graphic details.",
       "variants": [
         {
-          "label": "01 \u00b7 First draft",
+          "label": "01 · First draft",
           "image": "source/4 - Interior design proposals/livingroom-scandinavian-01.png",
           "prompt": "prompts/six-styles-v01-scandi.txt",
           "tv_mounting": "standing"
@@ -159,7 +159,7 @@
       "description": "White linen, teak, restrained woven panels and bold green leaves.",
       "variants": [
         {
-          "label": "01 \u00b7 First draft",
+          "label": "01 · First draft",
           "image": "source/4 - Interior design proposals/livingroom-tropical-modern-01.png",
           "prompt": "prompts/six-styles-v01-tropical.txt",
           "tv_mounting": "standing"
@@ -180,7 +180,7 @@
       "description": "Cubic seating, tubular chrome, smoked glass and precise dark lines.",
       "variants": [
         {
-          "label": "01 \u00b7 First draft",
+          "label": "01 · First draft",
           "image": "source/4 - Interior design proposals/livingroom-modernist-01.png",
           "prompt": "prompts/six-styles-v01-modernist.txt",
           "tv_mounting": "standing"
@@ -201,19 +201,19 @@
       "description": "Earlier preferred neutral direction, with its sofa, console, curtain and plant revisions preserved. Owner subsequently requested more contemporary and more varied options.",
       "variants": [
         {
-          "label": "02 \u00b7 Standing TV",
+          "label": "02 · Standing TV",
           "image": "source/4 - Interior design proposals/livingroom-walnut-mushroom-02.png",
           "prompt": "prompts/living-room-v02-a.txt",
           "tv_mounting": "standing"
         },
         {
-          "label": "05 \u00b7 Natural walnut console",
+          "label": "05 · Natural walnut console",
           "image": "source/4 - Interior design proposals/livingroom-walnut-mushroom-05.png",
           "prompt": "prompts/living-room-v04-natural-walnut-console.txt",
           "tv_mounting": "standing"
         },
         {
-          "label": "06 \u00b7 Strong green plants",
+          "label": "06 · Strong green plants",
           "image": "source/4 - Interior design proposals/livingroom-walnut-mushroom-06.png",
           "prompt": "prompts/living-room-v05-green-plants.txt",
           "tv_mounting": "standing"
@@ -234,7 +234,7 @@
       "description": "Warm-grey upholstery, stone dining and walnut nesting tables.",
       "variants": [
         {
-          "label": "02 \u00b7 Standing TV",
+          "label": "02 · Standing TV",
           "image": "source/4 - Interior design proposals/livingroom-mineral-calm-02.png",
           "prompt": "prompts/living-room-v02-b.txt",
           "tv_mounting": "standing"
@@ -255,7 +255,7 @@
       "description": "Deeper upholstery with richer walnut dining, console and coffee-table tones.",
       "variants": [
         {
-          "label": "02 \u00b7 Standing TV",
+          "label": "02 · Standing TV",
           "image": "source/4 - Interior design proposals/livingroom-deep-walnut-02.png",
           "prompt": "prompts/living-room-v02-c.txt",
           "tv_mounting": "standing"
@@ -336,7 +336,7 @@
       "description": "Earlier walnut and mushroom palette board; material study only, not an apartment view.",
       "variants": [
         {
-          "label": "Material palette \u00b7 Earlier study",
+          "label": "Material palette · Earlier study",
           "image": "outputs/style-study-v02/walnut-mushroom.png",
           "prompt": "prompts/style-study-v02.txt",
           "note": "Material study only; no room dimensions depicted."
@@ -349,27 +349,27 @@
       "name": "Stoa walnut & black workspace",
       "kind": "room",
       "area": "Bedroom",
-      "sofa": "Walnut Decor \u00b7 white linen \u00b7 black workspace",
+      "sofa": "Walnut Decor · white linen · black workspace",
       "colours": [
         "white",
         "grey"
       ],
-      "description": "Selected 1.80 \u00d7 2.00 m bed shifted toward the glass. Woodendot Stoa Walnut Decor base (official 1.83 \u00d7 2.04 \u00d7 0.32 m), matching freestanding walnut nightstands, black height-adjustable desk on the left and black office chair facing that wall. Warm white bedding and restrained textured accents. The thin walnut headboard and art are additional styling proposals, not included with the linked bed base. Generated perspective is illustrative: exact clearances remain in the measured plans.",
+      "description": "Selected 1.80 × 2.00 m bed shifted toward the glass. Woodendot Stoa Walnut Decor base (official 1.83 × 2.04 × 0.32 m), matching freestanding walnut nightstands, black height-adjustable desk on the left and black office chair facing that wall. Warm white bedding and restrained textured accents. The thin walnut headboard and art are additional styling proposals, not included with the linked bed base. Generated perspective is illustrative: exact clearances remain in the measured plans.",
       "variants": [
         {
-          "label": "01 \u00b7 Original placement",
+          "label": "01 · Original placement",
           "image": "source/4 - Interior design proposals/bedroom-stoa-walnut-01.png",
           "prompt": "prompts/bedroom-stoa-walnut-01.txt",
           "note": "Original image retained as an option at owner request. Bed placement reads more centred than the chosen measured layout."
         },
         {
-          "label": "02 \u00b7 Closer to glass",
+          "label": "02 · Closer to glass",
           "image": "source/4 - Interior design proposals/bedroom-stoa-walnut-02.png",
           "prompt": "prompts/bedroom-stoa-walnut-02.txt",
           "note": "Additional option with bed shifted toward the glass and a visibly wider wardrobe-side aisle. Generated perspective remains approximate; measured plans govern exact fit."
         },
         {
-          "label": "03 \u00b7 Toward bedroom entrance",
+          "label": "03 · Toward bedroom entrance",
           "image": "source/4 - Interior design proposals/bedroom-stoa-walnut-03.png",
           "prompt": "prompts/bedroom-stoa-walnut-03.txt",
           "note": "Reverse view of the closer-to-glass layout, using Bedroom wardrobes 1 and 2 for the original wardrobes and entrance alcove. Existing options remain available. Generated perspective; consult measured plans for exact fit."
@@ -380,29 +380,29 @@
     },
     {
       "id": "stoa-simple-bedding",
-      "name": "Stoa \u00b7 simple bedding",
+      "name": "Stoa · simple bedding",
       "kind": "room",
       "area": "Bedroom",
-      "sofa": "Two pillows \u00b7 plain white duvet",
+      "sofa": "Two pillows · plain white duvet",
       "colours": [
         "white"
       ],
       "description": "Same Stoa walnut bedroom and black workspace with simple bedding: exactly two sleeping pillows, one per sleeper, and one plain white Nordic duvet hanging loosely over the three free edges, untucked. No throw, decorative cushions or extra pillows. Three original viewpoints/placements preserved; closer-to-glass view selected by default. Earlier Stoa style remains unchanged.",
       "variants": [
         {
-          "label": "01 \u00b7 Original placement",
+          "label": "01 · Original placement",
           "image": "source/4 - Interior design proposals/bedroom-stoa-simple-01.png",
           "prompt": "prompts/bedroom-stoa-simple-01.txt",
           "note": "Bedding-only generated edit of the corresponding Stoa walnut view; measured plans remain authoritative for clearances."
         },
         {
-          "label": "02 \u00b7 Closer to glass",
+          "label": "02 · Closer to glass",
           "image": "source/4 - Interior design proposals/bedroom-stoa-simple-02.png",
           "prompt": "prompts/bedroom-stoa-simple-02.txt",
           "note": "Bedding-only generated edit of the corresponding Stoa walnut view; measured plans remain authoritative for clearances."
         },
         {
-          "label": "03 \u00b7 Toward bedroom entrance",
+          "label": "03 · Toward bedroom entrance",
           "image": "source/4 - Interior design proposals/bedroom-stoa-simple-03.png",
           "prompt": "prompts/bedroom-stoa-simple-03.txt",
           "note": "Bedding-only generated edit of the corresponding Stoa walnut view; measured plans remain authoritative for clearances."
@@ -413,17 +413,17 @@
     },
     {
       "id": "bedding-white-piping",
-      "name": "Crisp white \u00b7 charcoal piping",
+      "name": "Crisp white · charcoal piping",
       "kind": "room",
       "area": "Bedroom",
       "sofa": "Cotton percale look",
       "colours": [
         "white"
       ],
-      "description": "Crisp white \u00b7 charcoal piping bedding direction on the same Stoa bedroom, viewed toward the entrance only. Exactly two sleeping pillows and one loose untucked duvet, with no throw or decorative cushions. Cotton percale look is a visual direction, not a selected textile product. Furniture and viewpoint retained from the simple-bedding source.",
+      "description": "Crisp white · charcoal piping bedding direction on the same Stoa bedroom, viewed toward the entrance only. Exactly two sleeping pillows and one loose untucked duvet, with no throw or decorative cushions. Cotton percale look is a visual direction, not a selected textile product. Furniture and viewpoint retained from the simple-bedding source.",
       "variants": [
         {
-          "label": "01 \u00b7 Toward bedroom entrance",
+          "label": "01 · Toward bedroom entrance",
           "image": "source/4 - Interior design proposals/bedroom-bedding-white-piping-01.png",
           "prompt": "prompts/bedroom-bedding-white-piping-01.txt",
           "note": "Bedding colour/texture study. Compare with the other entrance-facing options; exact fabric and duvet sizing remain to select."
@@ -444,7 +444,7 @@
       "description": "Natural flax linen bedding direction on the same Stoa bedroom, viewed toward the entrance only. Exactly two sleeping pillows and one loose untucked duvet, with no throw or decorative cushions. Washed linen look is a visual direction, not a selected textile product. Furniture and viewpoint retained from the simple-bedding source.",
       "variants": [
         {
-          "label": "01 \u00b7 Toward bedroom entrance",
+          "label": "01 · Toward bedroom entrance",
           "image": "source/4 - Interior design proposals/bedroom-bedding-natural-flax-01.png",
           "prompt": "prompts/bedroom-bedding-natural-flax-01.txt",
           "note": "Bedding colour/texture study. Compare with the other entrance-facing options; exact fabric and duvet sizing remain to select."
@@ -455,17 +455,17 @@
     },
     {
       "id": "bedding-mushroom-waffle",
-      "name": "Mushroom \u00b7 subtle waffle",
+      "name": "Mushroom · subtle waffle",
       "kind": "room",
       "area": "Bedroom",
       "sofa": "Textured cotton look",
       "colours": [
         "mushroom"
       ],
-      "description": "Mushroom \u00b7 subtle waffle bedding direction on the same Stoa bedroom, viewed toward the entrance only. Exactly two sleeping pillows and one loose untucked duvet, with no throw or decorative cushions. Textured cotton look is a visual direction, not a selected textile product. Furniture and viewpoint retained from the simple-bedding source.",
+      "description": "Mushroom · subtle waffle bedding direction on the same Stoa bedroom, viewed toward the entrance only. Exactly two sleeping pillows and one loose untucked duvet, with no throw or decorative cushions. Textured cotton look is a visual direction, not a selected textile product. Furniture and viewpoint retained from the simple-bedding source.",
       "variants": [
         {
-          "label": "01 \u00b7 Toward bedroom entrance",
+          "label": "01 · Toward bedroom entrance",
           "image": "source/4 - Interior design proposals/bedroom-bedding-mushroom-waffle-01.png",
           "prompt": "prompts/bedroom-bedding-mushroom-waffle-01.txt",
           "note": "Bedding colour/texture study. Compare with the other entrance-facing options; exact fabric and duvet sizing remain to select."
@@ -476,17 +476,17 @@
     },
     {
       "id": "bedding-grey-ticking",
-      "name": "Soft grey \u00b7 fine stripes",
+      "name": "Soft grey · fine stripes",
       "kind": "room",
       "area": "Bedroom",
       "sofa": "Cotton ticking-stripe look",
       "colours": [
         "grey"
       ],
-      "description": "Soft grey \u00b7 fine stripes bedding direction on the same Stoa bedroom, viewed toward the entrance only. Exactly two sleeping pillows and one loose untucked duvet, with no throw or decorative cushions. Cotton ticking-stripe look is a visual direction, not a selected textile product. Furniture and viewpoint retained from the simple-bedding source.",
+      "description": "Soft grey · fine stripes bedding direction on the same Stoa bedroom, viewed toward the entrance only. Exactly two sleeping pillows and one loose untucked duvet, with no throw or decorative cushions. Cotton ticking-stripe look is a visual direction, not a selected textile product. Furniture and viewpoint retained from the simple-bedding source.",
       "variants": [
         {
-          "label": "01 \u00b7 Toward bedroom entrance",
+          "label": "01 · Toward bedroom entrance",
           "image": "source/4 - Interior design proposals/bedroom-bedding-grey-ticking-01.png",
           "prompt": "prompts/bedroom-bedding-grey-ticking-01.txt",
           "note": "Bedding colour/texture study. Compare with the other entrance-facing options; exact fabric and duvet sizing remain to select."
@@ -494,6 +494,216 @@
       ],
       "default_variant": "bedroom-bedding-grey-ticking-01.png",
       "review": "outputs/bedroom-bedding-explorer-v01/review.md"
+    },
+    {
+      "id": "bedroom-pale-oak",
+      "name": "Pale natural oak",
+      "kind": "room",
+      "area": "Bedroom",
+      "sofa": "Light wood · white duvet · black workspace",
+      "colours": [
+        "white"
+      ],
+      "description": "Pale natural oak on the bed base, thin headboard and both nightstands, with simple white bedding: exactly two pillows and one loose untucked duvet. Entrance-facing view of the selected closer-to-glass arrangement. A proposed furniture-finish direction; exact product variant remains to select.",
+      "variants": [
+        {
+          "label": "01 · Toward bedroom entrance",
+          "image": "source/4 - Interior design proposals/bedroom-pale-oak-01.png",
+          "prompt": "prompts/bedroom-pale-oak-01.txt",
+          "note": "Furniture wood finish changed from the walnut source. Fixed timber doors, actual floor/wardrobes and black workspace retained. Measured plans remain authoritative."
+        }
+      ],
+      "default_variant": "bedroom-pale-oak-01.png",
+      "review": "outputs/bedroom-lighter-wood-v01/review.md"
+    },
+    {
+      "id": "bedroom-whitewashed-wood",
+      "name": "Whitewashed wood",
+      "kind": "room",
+      "area": "Bedroom",
+      "sofa": "Light wood · white duvet · black workspace",
+      "colours": [
+        "white"
+      ],
+      "description": "Whitewashed wood on the bed base, thin headboard and both nightstands, with simple white bedding: exactly two pillows and one loose untucked duvet. Entrance-facing view of the selected closer-to-glass arrangement. A proposed furniture-finish direction; exact product variant remains to select.",
+      "variants": [
+        {
+          "label": "01 · Toward bedroom entrance",
+          "image": "source/4 - Interior design proposals/bedroom-whitewashed-wood-01.png",
+          "prompt": "prompts/bedroom-whitewashed-wood-01.txt",
+          "note": "Furniture wood finish changed from the walnut source. Fixed timber doors, actual floor/wardrobes and black workspace retained. Measured plans remain authoritative."
+        }
+      ],
+      "default_variant": "bedroom-whitewashed-wood-01.png",
+      "review": "outputs/bedroom-lighter-wood-v01/review.md"
+    },
+    {
+      "id": "shop-bed-linea",
+      "name": "Linea Black",
+      "kind": "room",
+      "area": "Bedroom",
+      "collection": "shop-beds",
+      "sofa": "Crate & Barrel · 2.06 × 2.16 m frame",
+      "colours": [
+        "white"
+      ],
+      "description": "Black open-base wood frame and footboard. It takes a 1.93 × 2.03 m US king mattress. Overall frame 2.06 × 2.16 × 1.17 m (W × L × H). Using the current bed position, the scaled plan gives 0.49 m to the glass, 0.47 m beyond the open wardrobe doors and 0.61 m to the chair envelope.",
+      "variants": [
+        {
+          "label": "Toward bedroom entrance",
+          "image": "source/4 - Interior design proposals/bedroom-shop-linea-01.png",
+          "prompt": "prompts/bedroom-shop-linea-01.txt",
+          "note": "Retailer overall dimensions, converted from inches. US king mattress."
+        }
+      ],
+      "default_variant": "bedroom-shop-linea-01.png"
+    },
+    {
+      "id": "shop-bed-larchmont",
+      "name": "Larchmont",
+      "kind": "room",
+      "area": "Bedroom",
+      "collection": "shop-beds",
+      "sofa": "Crate & Barrel · 2.75 × 2.53 m frame",
+      "colours": [
+        "white"
+      ],
+      "description": "The 2.75 m width is the full headboard. The built-in foot bench accounts for part of the 2.53 m overall length. Overall frame 2.75 × 2.53 × 1.12 m (W × L × H). Using the current bed position, the scaled plan gives 0.15 m to the glass, 0.13 m beyond the open wardrobe doors and 0.24 m to the chair envelope.",
+      "variants": [
+        {
+          "label": "Toward bedroom entrance",
+          "image": "source/4 - Interior design proposals/bedroom-shop-larchmont-01.png",
+          "prompt": "prompts/bedroom-shop-larchmont-01.txt",
+          "note": "Store tag and retailer dimensions. US king mattress size assumed."
+        }
+      ],
+      "default_variant": "bedroom-shop-larchmont-01.png"
+    },
+    {
+      "id": "shop-bed-vilang",
+      "name": "Vilang",
+      "kind": "room",
+      "area": "Bedroom",
+      "collection": "shop-beds",
+      "sofa": "Marina Home · 2.40 × 2.38 m frame",
+      "colours": [
+        "white"
+      ],
+      "description": "The timber platform extends beyond the mattress. The showroom tag gives the footprint; headboard height and orientation come from the same model in another finish. Overall frame 2.40 × 2.38 × 1.04 m (W × L × H). Using the current bed position, the scaled plan gives 0.32 m to the glass, 0.30 m beyond the open wardrobe doors and 0.39 m to the chair envelope.",
+      "variants": [
+        {
+          "label": "Toward bedroom entrance",
+          "image": "source/4 - Interior design proposals/bedroom-shop-vilang-01.png",
+          "prompt": "prompts/bedroom-shop-vilang-01.txt",
+          "note": "Store tag gives 2.40 × 2.38 m. Headboard orientation and height from the same model in another finish."
+        }
+      ],
+      "default_variant": "bedroom-shop-vilang-01.png"
+    },
+    {
+      "id": "shop-bed-home-centre-wood",
+      "name": "Wood frame with upholstered headboard",
+      "kind": "room",
+      "area": "Bedroom",
+      "collection": "shop-beds",
+      "sofa": "Home Centre · 2.00 × 2.18 m frame",
+      "colours": [
+        "white"
+      ],
+      "description": "Wood frame around the light upholstered headboard. The measurements are planning estimates until the exact model is identified. Overall frame 2.00 × 2.18 × 1.20 m (W × L × H). Using the current bed position, the scaled plan gives 0.52 m to the glass, 0.50 m beyond the open wardrobe doors and 0.59 m to the chair envelope.",
+      "variants": [
+        {
+          "label": "Toward bedroom entrance",
+          "image": "source/4 - Interior design proposals/bedroom-shop-home-centre-wood-01.png",
+          "prompt": "prompts/bedroom-shop-home-centre-wood-01.txt",
+          "note": "Estimated dimensions. The exact model and overall size are unconfirmed."
+        }
+      ],
+      "default_variant": "bedroom-shop-home-centre-wood-01.png"
+    },
+    {
+      "id": "shop-bed-stellar",
+      "name": "Stellar Luxe",
+      "kind": "room",
+      "area": "Bedroom",
+      "collection": "shop-beds",
+      "sofa": "Home Centre · 2.02 × 2.43 m frame",
+      "colours": [
+        "white"
+      ],
+      "description": "One Stellar Luxe configuration. The 2.43 m length is a conservative sum of the base and headboard depths; the assembled frame may be shorter. Overall frame 2.02 × 2.43 × 1.20 m (W × L × H). Using the current bed position, the scaled plan gives 0.51 m to the glass, 0.49 m beyond the open wardrobe doors and 0.34 m to the chair envelope.",
+      "variants": [
+        {
+          "label": "Toward bedroom entrance",
+          "image": "source/4 - Interior design proposals/bedroom-shop-stellar-01.png",
+          "prompt": "prompts/bedroom-shop-stellar-01.txt",
+          "note": "Luxe headboard + standard king base. 2.43 m is the conservative sum of part depths; assembled depth is unconfirmed."
+        }
+      ],
+      "default_variant": "bedroom-shop-stellar-01.png"
+    },
+    {
+      "id": "shop-bed-scepter",
+      "name": "Scepter Oak king bed",
+      "kind": "room",
+      "area": "Bedroom",
+      "collection": "shop-beds",
+      "sofa": "PAN Home · 2.31 × 2.30 m frame",
+      "colours": [
+        "white"
+      ],
+      "description": "PAN Home Scepter Oak king, with a broad cream upholstered headboard and rounded dark oak base. The shop tag confirms the overall frame size and the 1.80 × 2.00 m mattress. Overall frame 2.31 × 2.30 × 1.10 m (W × L × H). Using the current bed position, the scaled plan gives 0.37 m to the glass, 0.35 m beyond the open wardrobe doors and 0.47 m to the chair envelope.",
+      "variants": [
+        {
+          "label": "Toward bedroom entrance",
+          "image": "source/4 - Interior design proposals/bedroom-shop-scepter-02.png",
+          "prompt": "prompts/bedroom-shop-scepter-02.txt",
+          "note": "Overall dimensions and mattress from the store tag, SKU 012FCF1000131."
+        }
+      ],
+      "default_variant": "bedroom-shop-scepter-02.png"
+    },
+    {
+      "id": "shop-bed-terra",
+      "name": "Terra (likely match)",
+      "kind": "room",
+      "area": "Bedroom",
+      "collection": "shop-beds",
+      "sofa": "PAN Home · 2.10 × 2.42 m frame",
+      "colours": [
+        "white"
+      ],
+      "description": "The shop photo appears to show Terra. This comparison uses the dimensions of PAN Home’s Terra king. Overall frame 2.10 × 2.42 × 1.05 m (W × L × H). Using the current bed position, the scaled plan gives 0.47 m to the glass, 0.45 m beyond the open wardrobe doors and 0.35 m to the chair envelope.",
+      "variants": [
+        {
+          "label": "Toward bedroom entrance",
+          "image": "source/4 - Interior design proposals/bedroom-shop-terra-01.png",
+          "prompt": "prompts/bedroom-shop-terra-01.txt",
+          "note": "Likely Terra based on the store photo. Dimensions are for the retailer’s Terra king."
+        }
+      ],
+      "default_variant": "bedroom-shop-terra-01.png"
+    },
+    {
+      "id": "shop-bed-grayson",
+      "name": "Grayson Walnut",
+      "kind": "room",
+      "area": "Bedroom",
+      "collection": "shop-beds",
+      "sofa": "PAN Home · 2.37 × 2.30 m frame",
+      "colours": [
+        "white"
+      ],
+      "description": "Warm walnut edges, a vertically segmented upholstered headboard and an upholstered base. Overall frame 2.37 × 2.30 × 1.25 m (W × L × H). Using the current bed position, the scaled plan gives 0.34 m to the glass, 0.32 m beyond the open wardrobe doors and 0.47 m to the chair envelope.",
+      "variants": [
+        {
+          "label": "Toward bedroom entrance",
+          "image": "source/4 - Interior design proposals/bedroom-shop-grayson-01.png",
+          "prompt": "prompts/bedroom-shop-grayson-01.txt",
+          "note": "Overall dimensions and mattress from the store tag, SKU 012JXD1100197."
+        }
+      ],
+      "default_variant": "bedroom-shop-grayson-01.png"
     }
   ],
   "excluded_room_images": [

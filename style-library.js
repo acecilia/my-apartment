@@ -170,7 +170,12 @@ function renderCompare() {
 function render(updateURL = false) {
   const visible = visibleEntries();
   const grid = document.querySelector('#room-styles');
-  grid.replaceChildren(...visible.map(card));
+  const shopBedGrid = document.querySelector('#shop-bed-styles');
+  if (shopBedGrid) {
+    shopBedGrid.replaceChildren(...visible.filter(entry => entry.collection === 'shop-beds').map(card));
+    shopBedGrid.closest('section').hidden = shopBedGrid.childElementCount === 0;
+  }
+  grid.replaceChildren(...visible.filter(entry => !shopBedGrid || entry.collection !== 'shop-beds').map(card));
   document.querySelector('#library-count').textContent = visible.length + ' room styles · ' + visible.reduce((sum, entry) => sum + entry.variants.length, 0) + ' saved images';
   const hasConcepts = entries.length > 0;
   document.querySelector('.library-tools').hidden = !hasConcepts;

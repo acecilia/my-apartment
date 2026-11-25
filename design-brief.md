@@ -128,3 +128,8 @@ Owner requests a separate new style, keeping all earlier proposals. Bedding: exa
 ## Bedding exploration · entrance-facing view only
 
 Owner requests more bedding styles to choose a purchase direction; use only the Toward bedroom entrance POV from bedroom-stoa-simple-03.png. Add separate visual choices: crisp white cotton look with fine charcoal piping; unbleached natural flax linen look; mushroom/greige with subtle waffle/dobby texture; light-grey/chalk fine ticking stripes. All retain exactly two sleeping pillows and a single untucked duvet falling over the foot and both sides. Preserve furniture, geometry, framing and lighting. These are visual material/colour directions, not selected textile products or fabric-performance recommendations. Keep earlier options.
+
+
+## Lighter bedroom timber · 7 November 2026
+
+Owner dislikes all current options as too brown and asks for lighter wood. Explore two new styles from the entrance-facing simple-bedding image: pale neutral natural oak and very pale whitewashed wood, applied to bed frame, thin headboard and both nightstands. Use plain white untucked duvet and two pillows. Keep fixed timber doors/frames, beige floor, white wardrobes and black workspace as actual existing/proposed constraints. Earlier walnut preference is superseded for current bedroom exploration, while original images remain available for comparison. These are visual finish concepts; no exact new product variant selected. Work locally; push to GitHub only on explicit owner instruction.

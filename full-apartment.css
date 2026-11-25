@@ -1,0 +1,103 @@
+.full-apartment {
+  max-width: 1080px;
+}
+
+.apartment-view-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.apartment-view-options label {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 6px 12px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: var(--card);
+  color: var(--green);
+  cursor: pointer;
+}
+
+.apartment-view-options label:has(input:checked) {
+  background: var(--green);
+  color: var(--card);
+}
+
+.apartment-view-options input {
+  margin: 0;
+  accent-color: var(--green);
+}
+
+.apartment-view-options label:has(input:focus-visible) {
+  outline: 2px solid var(--green);
+  outline-offset: 2px;
+}
+
+.apartment-cutaway {
+  margin: 0;
+  scroll-margin-top: calc(var(--apartment-navigation-height, 72px) + 58px);
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--card);
+}
+
+.apartment-cutaway > a,
+.apartment-cutaway img {
+  display: block;
+}
+
+.apartment-cutaway img {
+  width: 100%;
+  height: auto;
+}
+
+.apartment-image {
+  position: relative;
+}
+
+.apartment-image canvas {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.apartment-cutaway figcaption {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 8px 24px;
+  padding: 14px 18px;
+}
+
+.apartment-cutaway h2,
+.apartment-cutaway p {
+  margin: 0;
+}
+
+.apartment-cutaway p,
+.apartment-measurements dt {
+  color: var(--muted);
+}
+
+.apartment-cutaway figcaption a {
+  color: var(--green);
+}
+
+.apartment-measurements {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px 24px;
+  padding: 0 0 20px;
+  margin: 18px 0 0;
+}
+
+.apartment-measurements dd {
+  margin: 2px 0 0;
+  font-weight: 650;
+}

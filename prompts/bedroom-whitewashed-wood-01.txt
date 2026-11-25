@@ -1,0 +1,9 @@
+Edit target: MyApartment/4 - Interior design proposals/bedroom-stoa-simple-03.png
+
+Use case: precise-object-edit. Owner dislikes the amount of brown and requests LIGHTER WOOD. Make an extra interior design option by changing the selected FURNITURE WOOD FINISHES only.
+
+Change ONLY the visible wood of the BED FRAME/base, THIN HEADBOARD and BOTH NIGHTSTANDS to VERY PALE WHITEWASHED WOOD: soft ivory/greige with delicate visible timber grain, matte and lightly translucent rather than opaque white paint. Nearly chalk-white wood, visibly brighter/lighter than natural oak and far lighter than the original brown walnut. All three furniture elements use one coherent matching finish, no golden or orange cast.
+
+Preserve the exact entrance-facing camera angle and crop. Bed remains the 1.80x2.00 mattress in the selected closer-to-glass layout, with the same thin Stoa-shaped box base/recessed plinth and all furniture at exactly the same positions/proportions. Keep the same two normal white sleeping pillows and ONE plain white Nordic duvet hanging LOOSELY over foot and both long sides, UNTUCKED. No brown throw, cushions, extra pillows, layers or new accessories.
+
+LOCK ALL OTHER CONTENT: retain actual beige tile floor, warm white walls/ceiling, white four-door fitted wardrobes, ACTUAL EXISTING BROWN TIMBER ENTRANCE/ENSUITE DOORS AND FRAMES, AC grilles, skirting and black glass/frame edge. Do not recolour the fixed doors, flooring, wardrobes or walls. Keep desk top/legs and ordinary mesh office chair matte BLACK, with chair facing its wall. Keep laptop, lamps, cups/books, beige relief art and existing art frame. Preserve exposure, daylight and white balance: do not achieve light wood by bleaching the entire image. Keep room geometry, bed/nightstand placement and perspective. Only bed/base, headboard and both nightstand wood materials change. One photorealistic wide landscape image, same aspect ratio as reference, no captions/watermarks/collage.
